@@ -1,4 +1,5 @@
 1_within_sample/m_brain/0_data/processed_data/
+1_within_sample/m_brain/0_data/raw_data/e18_mouse_brain_fresh_5k_filtered_feature_bc_matrix.h5
 1_within_sample/m_brain/1_XChrom/0_model_train/train_out/epoch_model/
 1_within_sample/m_brain/1_XChrom/0_model_train/train_data/
 1_within_sample/m_brain/1_XChrom/1_model_eval/eval_out/
@@ -44,5 +45,4 @@
 4_covid19/2_TFactivity/motif_fasta/
 4_covid19/3_mono/1_cMono/需要的数据就是mild_severe_all.h5ad和tf_activity的输出.txt
 4_covid19/3_mono/2_R1R4/coviddata/
-
 
