@@ -1,0 +1,2 @@
+#/bin/bash
+python ../../../model/XChrom_preprocess.py --ad_file /picb/bigdata/project/miaoyuanyuan/train/XChrom/analysis/4_covid19/0_preprocess/pbmc10k/atac_ad.h5ad --input_fasta /picb/bigdata/project/miaoyuanyuan/hg38.fa --out_path ./train_data/

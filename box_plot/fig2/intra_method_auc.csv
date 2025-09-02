@@ -1,0 +1,121 @@
+Method,Metric,Dataset,Value
+Seurat,auROC,h_pbmc,0.76
+Seurat,auROC,m_brain,0.7
+Seurat,auROC,h_brain,0.74
+Seurat,auROC,h_gonads,0.67
+Seurat,auROC,m_palates,0.66
+Seurat,per cell auROC,h_pbmc,0.76
+Seurat,per cell auROC,m_brain,0.71
+Seurat,per cell auROC,h_brain,0.73
+Seurat,per cell auROC,h_gonads,0.66
+Seurat,per cell auROC,m_palates,0.66
+Seurat,per peak auROC,h_pbmc,0.6
+Seurat,per peak auROC,m_brain,0.57
+Seurat,per peak auROC,h_brain,0.64
+Seurat,per peak auROC,h_gonads,0.52
+Seurat,per peak auROC,m_palates,0.56
+Seurat,auPRC,h_pbmc,0.47
+Seurat,auPRC,m_brain,0.31
+Seurat,auPRC,h_brain,0.35
+Seurat,auPRC,h_gonads,0.12
+Seurat,auPRC,m_palates,0.25
+Seurat,per cell auPRC,h_pbmc,0.47
+Seurat,per cell auPRC,m_brain,0.3
+Seurat,per cell auPRC,h_brain,0.3
+Seurat,per cell auPRC,h_gonads,0.11
+Seurat,per cell auPRC,m_palates,0.23
+Seurat,per peak auPRC,h_pbmc,0.28
+Seurat,per peak auPRC,m_brain,0.2
+Seurat,per peak auPRC,h_brain,0.26
+Seurat,per peak auPRC,h_gonads,0.07
+Seurat,per peak auPRC,m_palates,0.18
+LS_Lab,auROC,h_pbmc,0.81
+LS_Lab,auROC,m_brain,0.77
+LS_Lab,auROC,h_brain,0.81
+LS_Lab,auROC,h_gonads,0.79
+LS_Lab,auROC,m_palates,0.75
+LS_Lab,per cell auROC,h_pbmc,0.81
+LS_Lab,per cell auROC,m_brain,0.77
+LS_Lab,per cell auROC,h_brain,0.8
+LS_Lab,per cell auROC,h_gonads,0.78
+LS_Lab,per cell auROC,m_palates,0.74
+LS_Lab,per peak auROC,h_pbmc,0.66
+LS_Lab,per peak auROC,m_brain,0.64
+LS_Lab,per peak auROC,h_brain,0.73
+LS_Lab,per peak auROC,h_gonads,0.63
+LS_Lab,per peak auROC,m_palates,0.65
+LS_Lab,auPRC,h_pbmc,0.54
+LS_Lab,auPRC,m_brain,0.39
+LS_Lab,auPRC,h_brain,0.44
+LS_Lab,auPRC,h_gonads,0.21
+LS_Lab,auPRC,m_palates,0.34
+LS_Lab,per cell auPRC,h_pbmc,0.54
+LS_Lab,per cell auPRC,m_brain,0.37
+LS_Lab,per cell auPRC,h_brain,0.38
+LS_Lab,per cell auPRC,h_gonads,0.18
+LS_Lab,per cell auPRC,m_palates,0.3
+LS_Lab,per peak auPRC,h_pbmc,0.32
+LS_Lab,per peak auPRC,m_brain,0.24
+LS_Lab,per peak auPRC,h_brain,0.34
+LS_Lab,per peak auPRC,h_gonads,0.1
+LS_Lab,per peak auPRC,m_palates,0.23
+MultiVI,auROC,h_pbmc,0.81
+MultiVI,auROC,m_brain,0.77
+MultiVI,auROC,h_brain,0.81
+MultiVI,auROC,h_gonads,0.78
+MultiVI,auROC,m_palates,0.74
+MultiVI,per cell auROC,h_pbmc,0.81
+MultiVI,per cell auROC,m_brain,0.77
+MultiVI,per cell auROC,h_brain,0.8
+MultiVI,per cell auROC,h_gonads,0.78
+MultiVI,per cell auROC,m_palates,0.74
+MultiVI,per peak auROC,h_pbmc,0.64
+MultiVI,per peak auROC,m_brain,0.64
+MultiVI,per peak auROC,h_brain,0.73
+MultiVI,per peak auROC,h_gonads,0.59
+MultiVI,per peak auROC,m_palates,0.62
+MultiVI,auPRC,h_pbmc,0.51
+MultiVI,auPRC,m_brain,0.38
+MultiVI,auPRC,h_brain,0.43
+MultiVI,auPRC,h_gonads,0.18
+MultiVI,auPRC,m_palates,0.31
+MultiVI,per cell auPRC,h_pbmc,0.52
+MultiVI,per cell auPRC,m_brain,0.37
+MultiVI,per cell auPRC,h_brain,0.38
+MultiVI,per cell auPRC,h_gonads,0.18
+MultiVI,per cell auPRC,m_palates,0.3
+MultiVI,per peak auPRC,h_pbmc,0.3
+MultiVI,per peak auPRC,m_brain,0.25
+MultiVI,per peak auPRC,h_brain,0.34
+MultiVI,per peak auPRC,h_gonads,0.08
+MultiVI,per peak auPRC,m_palates,0.22
+XChrom,auROC,m_palates,0.83
+XChrom,per cell auROC,m_palates,0.73
+XChrom,per peak auROC,m_palates,0.77
+XChrom,auPRC,m_palates,0.46
+XChrom,per cell auPRC,m_palates,0.3
+XChrom,per peak auPRC,m_palates,0.33
+XChrom,auROC,m_brain,0.82
+XChrom,per cell auROC,m_brain,0.77
+XChrom,per peak auROC,m_brain,0.75
+XChrom,auPRC,m_brain,0.48
+XChrom,per cell auPRC,m_brain,0.37
+XChrom,per peak auPRC,m_brain,0.34
+XChrom,auROC,h_pbmc,0.83
+XChrom,per cell auROC,h_pbmc,0.8
+XChrom,per peak auROC,h_pbmc,0.72
+XChrom,auPRC,h_pbmc,0.58
+XChrom,per cell auPRC,h_pbmc,0.52
+XChrom,per peak auPRC,h_pbmc,0.38
+XChrom,auROC,h_gonads,0.82
+XChrom,per cell auROC,h_gonads,0.78
+XChrom,per peak auROC,h_gonads,0.71
+XChrom,auPRC,h_gonads,0.26
+XChrom,per cell auPRC,h_gonads,0.18
+XChrom,per peak auPRC,h_gonads,0.13
+XChrom,auROC,h_brain,0.84
+XChrom,per cell auROC,h_brain,0.79
+XChrom,per peak auROC,h_brain,0.79
+XChrom,auPRC,h_brain,0.52
+XChrom,per cell auPRC,h_brain,0.37
+XChrom,per peak auPRC,h_brain,0.41

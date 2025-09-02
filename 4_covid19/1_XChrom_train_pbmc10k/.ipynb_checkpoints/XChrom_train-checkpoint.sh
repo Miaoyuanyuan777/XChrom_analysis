@@ -1,0 +1,2 @@
+#/bin/bash
+python ../../../model/XChrom_train.py --input_folder ./train_data/ --cell_embedding_ad /picb/bigdata/project/miaoyuanyuan/train/XChrom/analysis/4_covid19/0_preprocess/data/harmony/pbmc10k/0_harmonyPCA.h5ad --epochs 1000 --trackscore False

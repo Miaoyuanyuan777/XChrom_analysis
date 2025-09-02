@@ -1,0 +1,215 @@
+
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Logging With ArchR!
+
+Start Time : 2025-07-08 22:28:43
+
+------- ArchR Info
+
+ArchRThreads = 1
+
+------- System Info
+
+Computer OS = unix
+
+------- Session Info
+
+R version 4.2.0 (2022-04-22)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS/LAPACK: /picb/bigdata/project/miaoyuanyuan/miniconda3/envs/r4.2/lib/libopenblasp-r0.3.27.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats4    grid      stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] circlize_0.4.15             ComplexHeatmap_2.14.0      
+ [3] presto_1.0.0                nabor_0.5.0                
+ [5] rhdf5_2.42.1                SummarizedExperiment_1.28.0
+ [7] Biobase_2.58.0              MatrixGenerics_1.10.0      
+ [9] Rcpp_1.0.13                 Matrix_1.6-1.1             
+[11] GenomicRanges_1.50.2        GenomeInfoDb_1.34.9        
+[13] IRanges_2.32.0              S4Vectors_0.36.2           
+[15] BiocGenerics_0.44.0         matrixStats_1.3.0          
+[17] data.table_1.14.2           stringr_1.5.1              
+[19] plyr_1.8.9                  magrittr_2.0.3             
+[21] ggplot2_3.5.1               gtable_0.3.5               
+[23] gtools_3.9.5                gridExtra_2.3              
+[25] ArchR_1.0.2                 universalmotif_1.16.0      
+
+loaded via a namespace (and not attached):
+ [1] jsonlite_1.8.8         foreach_1.5.2          GenomeInfoDbData_1.2.9
+ [4] yaml_2.3.9             pillar_1.9.0           lattice_0.22-6        
+ [7] glue_1.7.0             uuid_1.1-0             digest_0.6.36         
+[10] RColorBrewer_1.1-3     XVector_0.38.0         colorspace_2.1-0      
+[13] htmltools_0.5.6.1      pkgconfig_2.0.3        GetoptLong_1.0.5      
+[16] zlibbioc_1.44.0        purrr_1.0.2            scales_1.3.0          
+[19] tibble_3.2.1           generics_0.1.3         withr_3.0.0           
+[22] repr_1.1.7             cli_3.6.3              crayon_1.5.3          
+[25] evaluate_0.24.0        fansi_1.0.6            doParallel_1.0.17     
+[28] MASS_7.3-57            Cairo_1.6-2            tools_4.2.0           
+[31] GlobalOptions_0.1.2    lifecycle_1.0.4        Rhdf5lib_1.20.0       
+[34] munsell_0.5.1          cluster_2.1.3          DelayedArray_0.24.0   
+[37] Biostrings_2.66.0      compiler_4.2.0         rlang_1.1.4           
+[40] RCurl_1.98-1.14        pbdZMQ_0.3-11          iterators_1.0.14      
+[43] IRkernel_1.3.2         rhdf5filters_1.10.1    rjson_0.2.21          
+[46] bitops_1.0-7           base64enc_0.1-3        codetools_0.2-20      
+[49] R6_2.5.1               dplyr_1.1.4            fastmap_1.2.0         
+[52] utf8_1.2.4             clue_0.3-61            shape_1.4.6           
+[55] stringi_1.8.4          parallel_4.2.0         IRdisplay_1.1         
+[58] vctrs_0.6.5            png_0.1-8              tidyselect_1.2.1      
+
+
+------- Log Info
+
+
+2025-07-08 22:28:43 : peakAnnoEnrichment Input-Parameters, Class = list
+
+peakAnnoEnrichment Input-Parameters$seMarker: length = 128651
+class: SummarizedExperiment 
+dim: 6 6 
+metadata(2): MatchInfo Params
+assays(7): Log2FC Mean ... AUC MeanBGD
+rownames(6): 1 2 ... 5 6
+rowData names(4): seqnames idx start end
+colnames(6): C1 C2 ... C5 C6
+colData names(0):
+
+
+peakAnnoEnrichment Input-Parameters$ArchRProj: length = 1
+
+peakAnnoEnrichment Input-Parameters$peakAnnotation: length = 1
+[1] "Motif"
+
+
+peakAnnoEnrichment Input-Parameters$matches: length = 0
+NULL
+
+
+peakAnnoEnrichment Input-Parameters$cutOff: length = 1
+[1] "Pval <= 0.05 & Log2FC > 1"
+
+
+peakAnnoEnrichment Input-Parameters$background: length = 1
+[1] "all"
+
+
+peakAnnoEnrichment Input-Parameters$logFile: length = 1
+[1] "ArchRLogs/ArchR-peakAnnoEnrichment-42fd39f48e5b-Date-2025-07-08_Time-22-28-43.log"
+
+
+
+2025-07-08 22:28:50 : Peaks-Matches, Class = GRanges
+GRanges object with 128651 ranges and 0 metadata columns:
+     seqnames              ranges strand
+        <Rle>           <IRanges>  <Rle>
+  C3     chr1       817105-817605      *
+  C6     chr1       827292-827792      *
+  C6     chr1       869653-870153      *
+  C1     chr1       897226-897726      *
+  C4     chr1       898651-899151      *
+  ..      ...                 ...    ...
+  C6     chrX 155820057-155820557      *
+  C4     chrX 155841299-155841799      *
+  C3     chrX 155843006-155843506      *
+  C6     chrX 155881023-155881523      *
+  C4     chrX 155886568-155887068      *
+  -------
+  seqinfo: 23 sequences from an unspecified genome; no seqlengths
+
+
+2025-07-08 22:28:50 : Peaks-ArchRProj, Class = GRanges
+GRanges object with 128651 ranges and 0 metadata columns:
+     seqnames              ranges strand
+        <Rle>           <IRanges>  <Rle>
+  C3     chr1       817105-817605      *
+  C6     chr1       827292-827792      *
+  C6     chr1       869653-870153      *
+  C1     chr1       897226-897726      *
+  C4     chr1       898651-899151      *
+  ..      ...                 ...    ...
+  C6     chrX 155820057-155820557      *
+  C4     chrX 155841299-155841799      *
+  C3     chrX 155843006-155843506      *
+  C6     chrX 155881023-155881523      *
+  C4     chrX 155886568-155887068      *
+  -------
+  seqinfo: 23 sequences from an unspecified genome; no seqlengths
+
+
+2025-07-08 22:28:50 : Peaks-SeMarker, Class = GRanges
+GRanges object with 128651 ranges and 0 metadata columns:
+           seqnames              ranges strand
+              <Rle>           <IRanges>  <Rle>
+       [1]     chr1       817105-817605      *
+       [2]     chr1       827292-827792      *
+       [3]     chr1       869653-870153      *
+       [4]     chr1       897226-897726      *
+       [5]     chr1       898651-899151      *
+       ...      ...                 ...    ...
+  [128647]     chrX 155820057-155820557      *
+  [128648]     chrX 155841299-155841799      *
+  [128649]     chrX 155843006-155843506      *
+  [128650]     chrX 155881023-155881523      *
+  [128651]     chrX 155886568-155887068      *
+  -------
+  seqinfo: 23 sequences from an unspecified genome; no seqlengths
+
+
+2025-07-08 22:28:51 : Peaks-Pasted-Matches, Class = character
+
+Peaks-Pasted-Matches: length = 128651
+[1] "chr1_817105_817605" "chr1_827292_827792" "chr1_869653_870153"
+[4] "chr1_897226_897726" "chr1_898651_899151" "chr1_904502_905002"
+
+
+
+2025-07-08 22:28:51 : Peaks-Pasted-ArchRProj, Class = character
+
+Peaks-Pasted-ArchRProj: length = 128651
+[1] "chr1_817105_817605" "chr1_827292_827792" "chr1_869653_870153"
+[4] "chr1_897226_897726" "chr1_898651_899151" "chr1_904502_905002"
+
+
+
+2025-07-08 22:28:51 : Peaks-Pasted-SeMarker, Class = character
+
+Peaks-Pasted-SeMarker: length = 128651
+[1] "chr1_817105_817605" "chr1_827292_827792" "chr1_869653_870153"
+[4] "chr1_897226_897726" "chr1_898651_899151" "chr1_904502_905002"
+
+
+2025-07-08 22:29:29 : Computing Enrichments 1 of 6, 0.774 mins elapsed.
+2025-07-08 22:29:31 : Computing Enrichments 2 of 6, 0.797 mins elapsed.
+2025-07-08 22:29:32 : Computing Enrichments 3 of 6, 0.826 mins elapsed.
+2025-07-08 22:29:34 : Computing Enrichments 4 of 6, 0.848 mins elapsed.
+2025-07-08 22:29:35 : Computing Enrichments 5 of 6, 0.872 mins elapsed.
+2025-07-08 22:29:37 : Computing Enrichments 6 of 6, 0.894 mins elapsed.
+
+------- Completed
+
+End Time : 2025-07-08 22:29:38
+Elapsed Time Minutes = 0.932159157594045
+Elapsed Time Hours = 0.015536236498091
+
+-------
+
+
+

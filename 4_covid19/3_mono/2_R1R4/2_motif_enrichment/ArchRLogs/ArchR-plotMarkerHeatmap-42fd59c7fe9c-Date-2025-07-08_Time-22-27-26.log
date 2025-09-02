@@ -1,0 +1,216 @@
+
+           ___      .______        ______  __    __  .______      
+          /   \     |   _  \      /      ||  |  |  | |   _  \     
+         /  ^  \    |  |_)  |    |  ,----'|  |__|  | |  |_)  |    
+        /  /_\  \   |      /     |  |     |   __   | |      /     
+       /  _____  \  |  |\  \\___ |  `----.|  |  |  | |  |\  \\___.
+      /__/     \__\ | _| `._____| \______||__|  |__| | _| `._____|
+    
+Logging With ArchR!
+
+Start Time : 2025-07-08 22:27:26
+
+------- ArchR Info
+
+ArchRThreads = 1
+
+------- System Info
+
+Computer OS = unix
+
+------- Session Info
+
+R version 4.2.0 (2022-04-22)
+Platform: x86_64-conda-linux-gnu (64-bit)
+Running under: CentOS Linux 7 (Core)
+
+Matrix products: default
+BLAS/LAPACK: /picb/bigdata/project/miaoyuanyuan/miniconda3/envs/r4.2/lib/libopenblasp-r0.3.27.so
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+attached base packages:
+[1] stats4    grid      stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] presto_1.0.0                nabor_0.5.0                
+ [3] rhdf5_2.42.1                SummarizedExperiment_1.28.0
+ [5] Biobase_2.58.0              MatrixGenerics_1.10.0      
+ [7] Rcpp_1.0.13                 Matrix_1.6-1.1             
+ [9] GenomicRanges_1.50.2        GenomeInfoDb_1.34.9        
+[11] IRanges_2.32.0              S4Vectors_0.36.2           
+[13] BiocGenerics_0.44.0         matrixStats_1.3.0          
+[15] data.table_1.14.2           stringr_1.5.1              
+[17] plyr_1.8.9                  magrittr_2.0.3             
+[19] ggplot2_3.5.1               gtable_0.3.5               
+[21] gtools_3.9.5                gridExtra_2.3              
+[23] ArchR_1.0.2                 universalmotif_1.16.0      
+
+loaded via a namespace (and not attached):
+ [1] lattice_0.22-6         Biostrings_2.66.0      digest_0.6.36         
+ [4] utf8_1.2.4             IRdisplay_1.1          R6_2.5.1              
+ [7] repr_1.1.7             evaluate_0.24.0        pillar_1.9.0          
+[10] zlibbioc_1.44.0        rlang_1.1.4            uuid_1.1-0            
+[13] RCurl_1.98-1.14        munsell_0.5.1          DelayedArray_0.24.0   
+[16] compiler_4.2.0         pkgconfig_2.0.3        base64enc_0.1-3       
+[19] htmltools_0.5.6.1      tidyselect_1.2.1       tibble_3.2.1          
+[22] GenomeInfoDbData_1.2.9 codetools_0.2-20       fansi_1.0.6           
+[25] crayon_1.5.3           dplyr_1.1.4            withr_3.0.0           
+[28] MASS_7.3-57            bitops_1.0-7           rhdf5filters_1.10.1   
+[31] jsonlite_1.8.8         lifecycle_1.0.4        scales_1.3.0          
+[34] cli_3.6.3              stringi_1.8.4          XVector_0.38.0        
+[37] generics_0.1.3         vctrs_0.6.5            IRkernel_1.3.2        
+[40] Rhdf5lib_1.20.0        tools_4.2.0            glue_1.7.0            
+[43] purrr_1.0.2            fastmap_1.2.0          yaml_2.3.9            
+[46] colorspace_2.1-0       pbdZMQ_0.3-11         
+
+
+------- Log Info
+
+
+2025-07-08 22:27:27 : markerHeatmap Input-Parameters, Class = list
+
+markerHeatmap Input-Parameters$seMarker: length = 128651
+class: SummarizedExperiment 
+dim: 6 6 
+metadata(2): MatchInfo Params
+assays(7): Log2FC Mean ... AUC MeanBGD
+rownames(6): 1 2 ... 5 6
+rowData names(4): seqnames idx start end
+colnames(6): C1 C2 ... C5 C6
+colData names(0):
+
+
+markerHeatmap Input-Parameters$cutOff: length = 1
+[1] "Pval <= 0.05 & Log2FC >= 1"
+
+
+markerHeatmap Input-Parameters$log2Norm: length = 1
+[1] TRUE
+
+
+markerHeatmap Input-Parameters$scaleTo: length = 1
+[1] 10000
+
+
+markerHeatmap Input-Parameters$scaleRows: length = 1
+[1] TRUE
+
+
+markerHeatmap Input-Parameters$plotLog2FC: length = 1
+[1] TRUE
+
+
+markerHeatmap Input-Parameters$limits: length = 2
+[1] -2  2
+
+
+markerHeatmap Input-Parameters$grepExclude: length = 0
+NULL
+
+
+markerHeatmap Input-Parameters$pal: length = 0
+NULL
+
+
+markerHeatmap Input-Parameters$binaryClusterRows: length = 1
+[1] TRUE
+
+
+markerHeatmap Input-Parameters$clusterCols: length = 1
+[1] TRUE
+
+
+markerHeatmap Input-Parameters$subsetMarkers: length = 0
+NULL
+
+
+markerHeatmap Input-Parameters$labelMarkers: length = 0
+NULL
+
+
+markerHeatmap Input-Parameters$nLabel: length = 1
+[1] 15
+
+
+markerHeatmap Input-Parameters$nPrint: length = 1
+[1] 15
+
+
+markerHeatmap Input-Parameters$labelRows: length = 1
+[1] FALSE
+
+
+markerHeatmap Input-Parameters$returnMatrix: length = 1
+[1] FALSE
+
+
+markerHeatmap Input-Parameters$transpose: length = 1
+[1] TRUE
+
+
+markerHeatmap Input-Parameters$invert: length = 1
+[1] FALSE
+
+
+markerHeatmap Input-Parameters$logFile: length = 1
+[1] "ArchRLogs/ArchR-plotMarkerHeatmap-42fd59c7fe9c-Date-2025-07-08_Time-22-27-26.log"
+
+
+
+2025-07-08 22:27:51 : passMat, Class = matrix
+ 
+2025-07-08 22:27:51 : passMat, Class = array
+     C1    C2    C3    C4    C5
+1 FALSE FALSE FALSE FALSE FALSE
+2 FALSE FALSE FALSE FALSE FALSE
+3 FALSE FALSE FALSE FALSE FALSE
+4  TRUE FALSE FALSE FALSE FALSE
+5 FALSE FALSE  TRUE FALSE FALSE
+
+passMat: nRows = 128651, nCols = 6
+
+
+2025-07-08 22:27:55 : mat, Class = matrix
+ 
+2025-07-08 22:27:55 : mat, Class = array
+          C1         C2          C3         C4         C5
+1 -0.5682150  0.6808851  0.26646771 -0.3237648  0.1730981
+2  0.1523492 -0.4374823  0.04842638 -0.1328315 -0.6567583
+3 -0.1430274 -0.3649408  0.44983641 -0.7817420  1.1454037
+4  2.0000000  0.0000000 -1.38227992 -0.3523316  0.2602414
+5 -1.3660437 -1.9726409  2.00000000 -1.1715271  2.0000000
+
+mat: nRows = 128651, nCols = 6
+
+
+2025-07-08 22:27:56 : mat-plot, Class = matrix
+ 
+2025-07-08 22:27:56 : mat-plot, Class = array
+                               C1       C2         C3         C4         C5
+chr2:207692125-207692625 2.000000 2.000000 -1.0292050 -0.4569684  2.0000000
+chr10:62666228-62666728  1.794266 1.023000  1.3519541 -1.1499619 -0.2119773
+chr12:66087331-66087831  1.124222 2.000000 -0.2949950 -0.6247648 -0.7459446
+chr17:58344278-58344778  1.901980 1.414825 -1.0292732 -0.6469303 -0.4527639
+chr2:28625030-28625530   1.059147 2.000000  0.1904243 -2.0000000 -1.6627672
+
+mat-plot: nRows = 26421, nCols = 6
+
+
+------- Completed
+
+End Time : 2025-07-08 22:28:11
+Elapsed Time Minutes = 0.765796279907227
+Elapsed Time Hours = 0.0127635362413194
+
+-------
+
+
+

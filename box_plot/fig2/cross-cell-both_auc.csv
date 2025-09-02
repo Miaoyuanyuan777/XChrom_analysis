@@ -1,0 +1,61 @@
+﻿Test,Metric,Dataset,Value
+cross-both,auROC,h_pbmc,0.69
+cross-both,auROC,m_brain,0.8
+cross-both,auROC,h_brain,0.8
+cross-both,auROC,h_gonads,0.79
+cross-both,auROC,m_palates,0.8
+cross-both,per cell auROC,h_pbmc,0.64
+cross-both,per cell auROC,m_brain,0.73
+cross-both,per cell auROC,h_brain,0.73
+cross-both,per cell auROC,h_gonads,0.73
+cross-both,per cell auROC,m_palates,0.69
+cross-both,per peak auROC,h_pbmc,0.65
+cross-both,per peak auROC,m_brain,0.74
+cross-both,per peak auROC,h_brain,0.76
+cross-both,per peak auROC,h_gonads,0.69
+cross-both,per peak auROC,m_palates,0.76
+cross-both,auPRC,h_pbmc,0.38
+cross-both,auPRC,m_brain,0.45
+cross-both,auPRC,h_brain,0.45
+cross-both,auPRC,h_gonads,0.22
+cross-both,auPRC,m_palates,0.41
+cross-both,per cell auPRC,h_pbmc,0.33
+cross-both,per cell auPRC,m_brain,0.34
+cross-both,per cell auPRC,h_brain,0.31
+cross-both,per cell auPRC,h_gonads,0.15
+cross-both,per cell auPRC,m_palates,0.27
+cross-both,per peak auPRC,h_pbmc,0.33
+cross-both,per peak auPRC,m_brain,0.32
+cross-both,per peak auPRC,h_brain,0.38
+cross-both,per peak auPRC,h_gonads,0.13
+cross-both,per peak auPRC,m_palates,0.31
+cross-cell,auROC,h_pbmc,0.83
+cross-cell,auROC,m_brain,0.82
+cross-cell,auROC,h_brain,0.84
+cross-cell,auROC,h_gonads,0.82
+cross-cell,auROC,m_palates,0.83
+cross-cell,per cell auROC,h_pbmc,0.8
+cross-cell,per cell auROC,m_brain,0.77
+cross-cell,per cell auROC,h_brain,0.79
+cross-cell,per cell auROC,h_gonads,0.78
+cross-cell,per cell auROC,m_palates,0.73
+cross-cell,per peak auROC,h_pbmc,0.72
+cross-cell,per peak auROC,m_brain,0.75
+cross-cell,per peak auROC,h_brain,0.79
+cross-cell,per peak auROC,h_gonads,0.71
+cross-cell,per peak auROC,m_palates,0.77
+cross-cell,auPRC,h_pbmc,0.58
+cross-cell,auPRC,m_brain,0.48
+cross-cell,auPRC,h_brain,0.52
+cross-cell,auPRC,h_gonads,0.26
+cross-cell,auPRC,m_palates,0.46
+cross-cell,per cell auPRC,h_pbmc,0.52
+cross-cell,per cell auPRC,m_brain,0.37
+cross-cell,per cell auPRC,h_brain,0.37
+cross-cell,per cell auPRC,h_gonads,0.18
+cross-cell,per cell auPRC,m_palates,0.3
+cross-cell,per peak auPRC,h_pbmc,0.38
+cross-cell,per peak auPRC,m_brain,0.34
+cross-cell,per peak auPRC,h_brain,0.41
+cross-cell,per peak auPRC,h_gonads,0.13
+cross-cell,per peak auPRC,m_palates,0.33

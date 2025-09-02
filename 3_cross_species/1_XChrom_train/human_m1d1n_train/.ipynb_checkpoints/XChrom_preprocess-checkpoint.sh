@@ -1,0 +1,2 @@
+#/bin/bash
+python /picb/bigdata/project/miaoyuanyuan/train/XChrom/model/XChrom_preprocess.py --ad_file /picb/bigdata/project/miaoyuanyuan/train/XChrom/analysis/3_cross_species/0_preprocess/data/1_human/m1d1n/ad_atac.h5ad --input_fasta /picb/bigdata/project/miaoyuanyuan/hg38.fa --out_path ./train_data/

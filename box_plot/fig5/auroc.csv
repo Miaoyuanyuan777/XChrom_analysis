@@ -1,0 +1,229 @@
+﻿Metric,Model,Species,Samples,Value
+auROC,human_model,human,m1d1,0.75
+per cell auROC,human_model,human,m1d1,0.69
+per peak auROC,human_model,human,m1d1,0.69
+auPRC,human_model,human,m1d1,0.36
+per cell auPRC,human_model,human,m1d1,0.28
+per peak auPRC,human_model,human,m1d1,0.25
+auROC,human_model,human,m1d2,0.74
+per cell auROC,human_model,human,m1d2,0.68
+per peak auROC,human_model,human,m1d2,0.68
+auPRC,human_model,human,m1d2,0.34
+per cell auPRC,human_model,human,m1d2,0.26
+per peak auPRC,human_model,human,m1d2,0.24
+auROC,human_model,human,m1d2n,0.77
+per cell auROC,human_model,human,m1d2n,0.68
+per peak auROC,human_model,human,m1d2n,0.73
+auPRC,human_model,human,m1d2n,0.32
+per cell auPRC,human_model,human,m1d2n,0.23
+per peak auPRC,human_model,human,m1d2n,0.23
+auROC,human_model,human,m1d3n,0.75
+per cell auROC,human_model,human,m1d3n,0.68
+per peak auROC,human_model,human,m1d3n,0.69
+auPRC,human_model,human,m1d3n,0.32
+per cell auPRC,human_model,human,m1d3n,0.24
+per peak auPRC,human_model,human,m1d3n,0.24
+auROC,mouse_model,mouse,mop2c1,0.83
+per cell auROC,mouse_model,mouse,mop2c1,0.76
+per peak auROC,mouse_model,mouse,mop2c1,0.79
+auPRC,mouse_model,mouse,mop2c1,0.45
+per cell auPRC,mouse_model,mouse,mop2c1,0.33
+per peak auPRC,mouse_model,mouse,mop2c1,0.3
+auROC,mouse_model,mouse,mop2c2,0.84
+per cell auROC,mouse_model,mouse,mop2c2,0.74
+per peak auROC,mouse_model,mouse,mop2c2,0.81
+auPRC,mouse_model,mouse,mop2c2,0.43
+per cell auPRC,mouse_model,mouse,mop2c2,0.28
+per peak auPRC,mouse_model,mouse,mop2c2,0.33
+auROC,mouse_model,mouse,mop3c1,0.79
+per cell auROC,mouse_model,mouse,mop3c1,0.7
+per peak auROC,mouse_model,mouse,mop3c1,0.74
+auPRC,mouse_model,mouse,mop3c1,0.37
+per cell auPRC,mouse_model,mouse,mop3c1,0.27
+per peak auPRC,mouse_model,mouse,mop3c1,0.26
+auROC,mouse_model,mouse,mop4b1,0.8
+per cell auROC,mouse_model,mouse,mop4b1,0.72
+per peak auROC,mouse_model,mouse,mop4b1,0.74
+auPRC,mouse_model,mouse,mop4b1,0.41
+per cell auPRC,mouse_model,mouse,mop4b1,0.31
+per peak auPRC,mouse_model,mouse,mop4b1,0.29
+auROC,mouse_model,mouse,mop4b2,0.84
+per cell auROC,mouse_model,mouse,mop4b2,0.76
+per peak auROC,mouse_model,mouse,mop4b2,0.79
+auPRC,mouse_model,mouse,mop4b2,0.43
+per cell auPRC,mouse_model,mouse,mop4b2,0.31
+per peak auPRC,mouse_model,mouse,mop4b2,0.3
+auROC,mouse_model,mouse,mop5d1,0.83
+per cell auROC,mouse_model,mouse,mop5d1,0.76
+per peak auROC,mouse_model,mouse,mop5d1,0.79
+auPRC,mouse_model,mouse,mop5d1,0.46
+per cell auPRC,mouse_model,mouse,mop5d1,0.33
+per peak auPRC,mouse_model,mouse,mop5d1,0.32
+auROC,mouse_model,mouse,mop5d2,0.84
+per cell auROC,mouse_model,mouse,mop5d2,0.76
+per peak auROC,mouse_model,mouse,mop5d2,0.8
+auPRC,mouse_model,mouse,mop5d2,0.47
+per cell auPRC,mouse_model,mouse,mop5d2,0.33
+per peak auPRC,mouse_model,mouse,mop5d2,0.32
+auROC,human_model,mouse,mop2c1,0.8
+per cell auROC,human_model,mouse,mop2c1,0.7
+per peak auROC,human_model,mouse,mop2c1,0.76
+auPRC,human_model,mouse,mop2c1,0.38
+per cell auPRC,human_model,mouse,mop2c1,0.28
+per peak auPRC,human_model,mouse,mop2c1,0.28
+auROC,human_model,mouse,mop2c2,0.82
+per cell auROC,human_model,mouse,mop2c2,0.69
+per peak auROC,human_model,mouse,mop2c2,0.79
+auPRC,human_model,mouse,mop2c2,0.38
+per cell auPRC,human_model,mouse,mop2c2,0.24
+per peak auPRC,human_model,mouse,mop2c2,0.31
+auROC,human_model,mouse,mop3c1,0.76
+per cell auROC,human_model,mouse,mop3c1,0.65
+per peak auROC,human_model,mouse,mop3c1,0.72
+auPRC,human_model,mouse,mop3c1,0.33
+per cell auPRC,human_model,mouse,mop3c1,0.23
+per peak auPRC,human_model,mouse,mop3c1,0.25
+auROC,human_model,mouse,mop3c2,0.79
+per cell auROC,human_model,mouse,mop3c2,0.69
+per peak auROC,human_model,mouse,mop3c2,0.75
+auPRC,human_model,mouse,mop3c2,0.37
+per cell auPRC,human_model,mouse,mop3c2,0.27
+per peak auPRC,human_model,mouse,mop3c2,0.26
+auROC,human_model,mouse,mop4b1,0.76
+per cell auROC,human_model,mouse,mop4b1,0.66
+per peak auROC,human_model,mouse,mop4b1,0.72
+auPRC,human_model,mouse,mop4b1,0.37
+per cell auPRC,human_model,mouse,mop4b1,0.26
+per peak auPRC,human_model,mouse,mop4b1,0.28
+auROC,human_model,mouse,mop4b2,0.8
+per cell auROC,human_model,mouse,mop4b2,0.7
+per peak auROC,human_model,mouse,mop4b2,0.77
+auPRC,human_model,mouse,mop4b2,0.37
+per cell auPRC,human_model,mouse,mop4b2,0.26
+per peak auPRC,human_model,mouse,mop4b2,0.27
+auROC,human_model,mouse,mop5d1,0.8
+per cell auROC,human_model,mouse,mop5d1,0.69
+per peak auROC,human_model,mouse,mop5d1,0.76
+auPRC,human_model,mouse,mop5d1,0.39
+per cell auPRC,human_model,mouse,mop5d1,0.27
+per peak auPRC,human_model,mouse,mop5d1,0.3
+auROC,human_model,mouse,mop5d2,0.81
+per cell auROC,human_model,mouse,mop5d2,0.69
+per peak auROC,human_model,mouse,mop5d2,0.77
+auPRC,human_model,mouse,mop5d2,0.4
+per cell auPRC,human_model,mouse,mop5d2,0.28
+per peak auPRC,human_model,mouse,mop5d2,0.3
+auROC,mouse_model,human,m1d1,0.75
+per cell auROC,mouse_model,human,m1d1,0.69
+per peak auROC,mouse_model,human,m1d1,0.7
+auPRC,mouse_model,human,m1d1,0.35
+per cell auPRC,mouse_model,human,m1d1,0.27
+per peak auPRC,mouse_model,human,m1d1,0.25
+auROC,mouse_model,human,m1d1n,0.76
+per cell auROC,mouse_model,human,m1d1n,0.67
+per peak auROC,mouse_model,human,m1d1n,0.72
+auPRC,mouse_model,human,m1d1n,0.28
+per cell auPRC,mouse_model,human,m1d1n,0.2
+per peak auPRC,mouse_model,human,m1d1n,0.22
+auROC,mouse_model,human,m1d2,0.74
+per cell auROC,mouse_model,human,m1d2,0.68
+per peak auROC,mouse_model,human,m1d2,0.69
+auPRC,mouse_model,human,m1d2,0.32
+per cell auPRC,mouse_model,human,m1d2,0.25
+per peak auPRC,mouse_model,human,m1d2,0.24
+auROC,mouse_model,human,m1d2n,0.76
+per cell auROC,mouse_model,human,m1d2n,0.67
+per peak auROC,mouse_model,human,m1d2n,0.72
+auPRC,mouse_model,human,m1d2n,0.3
+per cell auPRC,mouse_model,human,m1d2n,0.21
+per peak auPRC,mouse_model,human,m1d2n,0.23
+auROC,mouse_model,human,m1d3n,0.74
+per cell auROC,mouse_model,human,m1d3n,0.67
+per peak auROC,mouse_model,human,m1d3n,0.69
+auPRC,mouse_model,human,m1d3n,0.3
+per cell auPRC,mouse_model,human,m1d3n,0.23
+per peak auPRC,mouse_model,human,m1d3n,0.23
+auROC,human_model,macaque,Dheni,0.77
+per cell auROC,human_model,macaque,Dheni,0.72
+per peak auROC,human_model,macaque,Dheni,0.71
+auPRC,human_model,macaque,Dheni,0.37
+per cell auPRC,human_model,macaque,Dheni,0.3
+per peak auPRC,human_model,macaque,Dheni,0.26
+auROC,human_model,macaque,Mac3,0.79
+per cell auROC,human_model,macaque,Mac3,0.73
+per peak auROC,human_model,macaque,Mac3,0.74
+auPRC,human_model,macaque,Mac3,0.46
+per cell auPRC,human_model,macaque,Mac3,0.36
+per peak auPRC,human_model,macaque,Mac3,0.33
+auROC,human_model,macaque,R2,0.73
+per cell auROC,human_model,macaque,R2,0.67
+per peak auROC,human_model,macaque,R2,0.67
+auPRC,human_model,macaque,R2,0.31
+per cell auPRC,human_model,macaque,R2,0.24
+per peak auPRC,human_model,macaque,R2,0.24
+auROC,human_model,marmoset,Webster,0.79
+per cell auROC,human_model,marmoset,Webster,0.7
+per peak auROC,human_model,marmoset,Webster,0.75
+auPRC,human_model,marmoset,Webster,0.39
+per cell auPRC,human_model,marmoset,Webster,0.27
+per peak auPRC,human_model,marmoset,Webster,0.29
+auROC,human_model,marmoset,Meadow,0.79
+per cell auROC,human_model,marmoset,Meadow,0.71
+per peak auROC,human_model,marmoset,Meadow,0.74
+auPRC,human_model,marmoset,Meadow,0.39
+per cell auPRC,human_model,marmoset,Meadow,0.3
+per peak auPRC,human_model,marmoset,Meadow,0.28
+auROC,human_model,marmoset,Peregrine_rep1,0.79
+per cell auROC,human_model,marmoset,Peregrine_rep1,0.71
+per peak auROC,human_model,marmoset,Peregrine_rep1,0.75
+auPRC,human_model,marmoset,Peregrine_rep1,0.39
+per cell auPRC,human_model,marmoset,Peregrine_rep1,0.28
+per peak auPRC,human_model,marmoset,Peregrine_rep1,0.29
+auROC,human_model,marmoset,Peregrine_rep2,0.79
+per cell auROC,human_model,marmoset,Peregrine_rep2,0.72
+per peak auROC,human_model,marmoset,Peregrine_rep2,0.74
+auPRC,human_model,marmoset,Peregrine_rep2,0.39
+per cell auPRC,human_model,marmoset,Peregrine_rep2,0.28
+per peak auPRC,human_model,marmoset,Peregrine_rep2,0.28
+auROC,mouse_model,macaque,Dheni,0.78
+per cell auROC,mouse_model,macaque,Dheni,0.73
+per peak auROC,mouse_model,macaque,Dheni,0.72
+auPRC,mouse_model,macaque,Dheni,0.37
+per cell auPRC,mouse_model,macaque,Dheni,0.31
+per peak auPRC,mouse_model,macaque,Dheni,0.27
+auROC,mouse_model,macaque,Mac3,0.81
+per cell auROC,mouse_model,macaque,Mac3,0.75
+per peak auROC,mouse_model,macaque,Mac3,0.75
+auPRC,mouse_model,macaque,Mac3,0.47
+per cell auPRC,mouse_model,macaque,Mac3,0.37
+per peak auPRC,mouse_model,macaque,Mac3,0.34
+auROC,mouse_model,macaque,R2,0.73
+per cell auROC,mouse_model,macaque,R2,0.68
+per peak auROC,mouse_model,macaque,R2,0.68
+auPRC,mouse_model,macaque,R2,0.31
+per cell auPRC,mouse_model,macaque,R2,0.24
+per peak auPRC,mouse_model,macaque,R2,0.24
+auROC,mouse_model,marmoset,Webster,0.8
+per cell auROC,mouse_model,marmoset,Webster,0.72
+per peak auROC,mouse_model,marmoset,Webster,0.76
+auPRC,mouse_model,marmoset,Webster,0.39
+per cell auPRC,mouse_model,marmoset,Webster,0.27
+per peak auPRC,mouse_model,marmoset,Webster,0.29
+auROC,mouse_model,marmoset,Meadow,0.8
+per cell auROC,mouse_model,marmoset,Meadow,0.73
+per peak auROC,mouse_model,marmoset,Meadow,0.75
+auPRC,mouse_model,marmoset,Meadow,0.4
+per cell auPRC,mouse_model,marmoset,Meadow,0.3
+per peak auPRC,mouse_model,marmoset,Meadow,0.28
+auROC,mouse_model,marmoset,Peregrine_rep1,0.8
+per cell auROC,mouse_model,marmoset,Peregrine_rep1,0.73
+per peak auROC,mouse_model,marmoset,Peregrine_rep1,0.76
+auPRC,mouse_model,marmoset,Peregrine_rep1,0.4
+per cell auPRC,mouse_model,marmoset,Peregrine_rep1,0.29
+per peak auPRC,mouse_model,marmoset,Peregrine_rep1,0.29
+auROC,mouse_model,marmoset,Peregrine_rep2,0.8
+per cell auROC,mouse_model,marmoset,Peregrine_rep2,0.73
+per peak auROC,mouse_model,marmoset,Peregrine_rep2,0.76
+auPRC,mouse_model,marmoset,Peregrine_rep2,0.39
+per cell auPRC,mouse_model,marmoset,Peregrine_rep2,0.29
+per peak auPRC,mouse_model,marmoset,Peregrine_rep2,0.29

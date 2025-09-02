@@ -1,0 +1,2 @@
+#/bin/bash
+python /picb/bigdata/project/miaoyuanyuan/train/XChrom/model/XChrom_train.py --input_folder ./train_data/ --cell_embedding_ad /picb/bigdata/project/miaoyuanyuan/train/XChrom/analysis/3_cross_species/0_preprocess/data/1_human/m1d1n/pca32.h5ad --epochs 1000 --trackscore True --celltype 'cell_type'
