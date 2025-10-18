@@ -50,12 +50,12 @@ annotation_df$y_position <- ifelse(annotation_df$p_value < 0.05,
 
 ggplot(df, aes(x = Metric, y = Value,)) +
   geom_boxplot(aes(group = interaction(Metric, Scenario), fill = Scenario), 
-               alpha = 1, outlier.shape = NA) +  # 绘制箱线图
+               alpha = 1, outlier.shape = NA) + 
   geom_jitter(
     aes(group = interaction(Metric, Scenario), shape = Dataset),
     position = position_jitterdodge(
-      jitter.width = 0.3,   # 控制抖动幅度
-      dodge.width = 0.6     # 控制不同 Scenario 的间距
+      jitter.width = 0.3,
+      dodge.width = 0.6     
     ),size = 3,alpha = 0.8,color = "black",stroke = 1)+
   scale_fill_manual(values = c('raw_atac'='grey',"intra" = "#aed09c", "inter" = "#FFD700")) +
   scale_shape_manual(
@@ -93,3 +93,4 @@ ggplot(df, aes(x = Metric, y = Value,)) +
 
 ggsave("intrainter_nsls_box.pdf", plot = last_plot(), 
        width = 10, height = 6, units = "in",dpi=300)
+
