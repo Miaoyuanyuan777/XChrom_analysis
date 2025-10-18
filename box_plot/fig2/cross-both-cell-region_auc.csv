@@ -59,3 +59,33 @@ cross-cell,per peak auPRC,m_brain,0.34
 cross-cell,per peak auPRC,h_brain,0.41
 cross-cell,per peak auPRC,h_gonads,0.13
 cross-cell,per peak auPRC,m_palates,0.33
+cross-region,auROC,h_pbmc,0.7
+cross-region,auROC,m_brain,0.8
+cross-region,auROC,h_brain,0.8
+cross-region,auROC,h_gonads,0.79
+cross-region,auROC,m_palates,0.8
+cross-region,per cell auROC,h_pbmc,0.64
+cross-region,per cell auROC,m_brain,0.74
+cross-region,per cell auROC,h_brain,0.73
+cross-region,per cell auROC,h_gonads,0.73
+cross-region,per cell auROC,m_palates,0.69
+cross-region,per peak auROC,h_pbmc,0.66
+cross-region,per peak auROC,m_brain,0.73
+cross-region,per peak auROC,h_brain,0.76
+cross-region,per peak auROC,h_gonads,0.69
+cross-region,per peak auROC,m_palates,0.75
+cross-region,auPRC,h_pbmc,0.38
+cross-region,auPRC,m_brain,0.44
+cross-region,auPRC,h_brain,0.46
+cross-region,auPRC,h_gonads,0.21
+cross-region,auPRC,m_palates,0.41
+cross-region,per cell auPRC,h_pbmc,0.33
+cross-region,per cell auPRC,m_brain,0.34
+cross-region,per cell auPRC,h_brain,0.31
+cross-region,per cell auPRC,h_gonads,0.15
+cross-region,per cell auPRC,m_palates,0.27
+cross-region,per peak auPRC,h_pbmc,0.31
+cross-region,per peak auPRC,m_brain,0.29
+cross-region,per peak auPRC,h_brain,0.38
+cross-region,per peak auPRC,h_gonads,0.12
+cross-region,per peak auPRC,m_palates,0.29

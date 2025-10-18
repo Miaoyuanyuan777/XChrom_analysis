@@ -35,6 +35,7 @@
 3_cross_species/3_ISM/motif_pwms/motif_files/
 3_cross_species/4_TFactivity/activity_out/
 3_cross_species/4_TFactivity/motif_fasta/
+3_cross_species/4_TFactivity/motif_fasta_mouse/
 
 4_covid19/0_preprocess/COVID19_MHH50/
 4_covid19/0_preprocess/data/
@@ -43,6 +44,6 @@
 4_covid19/1_XChrom_train_pbmc10k/train_out/
 4_covid19/2_TFactivity/activity_out/
 4_covid19/2_TFactivity/motif_fasta/
-4_covid19/3_mono/1_cMono/需要的数据就是mild_severe_all.h5ad和tf_activity的输出.txt
+4_covid19/3_mono/1_cMono/
 4_covid19/3_mono/2_R1R4/coviddata/
 
