@@ -9,6 +9,15 @@
 1_within_sample/m_brain/3_Seurat/Results/
 1_within_sample/m_brain/4_LS_Lab/Results/
 1_within_sample/m_brain/5_MultiVI/Results/
+1_within_sample/m_brain/0_data/.ipynb_checkpoints
+1_within_sample/m_brain/1_XChrom/0_model_train/.ipynb_checkpoints
+1_within_sample/m_brain/1_XChrom/0_model_train/train_out/.ipynb_checkpoints
+1_within_sample/m_brain/1_XChrom/1_model_eval/.ipynb_checkpoints
+1_within_sample/m_brain/1_XChrom/2_per10epoch_summary/.ipynb_checkpoints
+1_within_sample/m_brain/2_scBasset/.ipynb_checkpoints
+1_within_sample/m_brain/3_Seurat/.ipynb_checkpoints
+1_within_sample/m_brain/4_LS_Lab/.ipynb_checkpoints
+1_within_sample/m_brain/5_MultiVI/.ipynb_checkpoints
 
 2_cross_samples/s1d1_s2d1/0_preprocess/processed_data/
 2_cross_samples/s1d1_s2d1/0_preprocess/raw_data/
@@ -20,7 +29,14 @@
 2_cross_samples/s1d1_s2d1/2_Seurat/data/
 2_cross_samples/s1d1_s2d1/3_LS_Lab/Results/
 2_cross_samples/s1d1_s2d1/4_MultiVI/Results/
-
+2_cross_samples/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/0_preprocess/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/1_XChrom/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/1_XChrom/model_eval/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/1_XChrom/model_train/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/2_Seurat/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/3_LS_Lab/.ipynb_checkpoints
+2_cross_samples/s1d1_s2d1/4_MultiVI/.ipynb_checkpoints
 
 3_cross_species/0_preprocess/data/
 3_cross_species/0_preprocess/harmony_pca/
@@ -36,6 +52,12 @@
 3_cross_species/4_TFactivity/activity_out/
 3_cross_species/4_TFactivity/motif_fasta/
 3_cross_species/4_TFactivity/motif_fasta_mouse/
+3_cross_species/0_preprocess/.ipynb_checkpoints
+3_cross_species/1_XChrom_train/human_m1d1n_train/.ipynb_checkpoints
+3_cross_species/1_XChrom_train/mouse_mop3c2_train/.ipynb_checkpoints
+3_cross_species/2_XChrom_eval/on_Mmodel/.ipynb_checkpoints
+3_cross_species/3_ISM/.ipynb_checkpoints
+3_cross_species/4_TFactivity/.ipynb_checkpoints
 
 4_covid19/0_preprocess/COVID19_MHH50/
 4_covid19/0_preprocess/data/
@@ -46,4 +68,15 @@
 4_covid19/2_TFactivity/motif_fasta/
 4_covid19/3_mono/1_cMono/
 4_covid19/3_mono/2_R1R4/coviddata/
+4_covid19/.ipynb_checkpoints
+4_covid19/0_preprocess/.ipynb_checkpoints
+4_covid19/0_preprocess/pbmc10k/pbmc10k_anno/.ipynb_checkpoints
+4_covid19/1_XChrom_train_pbmc10k/.ipynb_checkpoints
+4_covid19/2_TFactivity/.ipynb_checkpoints
+4_covid19/3_mono/.ipynb_checkpoints
+4_covid19/3_mono/1_cMono/.ipynb_checkpoints
+4_covid19/3_mono/2_R1R4/.ipynb_checkpoints
+4_covid19/3_mono/2_R1R4/1_differential_analysis/.ipynb_checkpoints
+4_covid19/3_mono/2_R1R4/2_motif_enrichment/.ipynb_checkpoints
+4_covid19/3_mono/pbmc10k_MonoSubcluters/.ipynb_checkpoints
 

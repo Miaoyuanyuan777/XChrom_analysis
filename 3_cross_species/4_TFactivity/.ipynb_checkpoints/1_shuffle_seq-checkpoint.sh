@@ -1,1 +1,0 @@
-fasta_ushuffle -k 2 < ./motif_fasta/ref_peaks1000.fasta > ./motif_fasta/shuffled_peaks.fasta
