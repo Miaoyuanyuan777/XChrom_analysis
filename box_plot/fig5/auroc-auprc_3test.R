@@ -37,7 +37,7 @@ y_pos <- filtered_df %>%
 perform_tests <- function(differences, digits_round = r,
                           exact = FALSE, correct = TRUE) {
   d <- differences[is.finite(differences)]
-  if (!is.null(digits_round)) d <- round(d, digits_round)  # 固化 ties（关键！）
+  if (!is.null(digits_round)) d <- round(d, digits_round) 
   
   n <- length(d)
   if (n < 2) return(list(p_value = NA_real_, test_method = "insufficient_n"))
@@ -46,23 +46,19 @@ perform_tests <- function(differences, digits_round = r,
     if (all(abs(d) < .Machine$double.eps)) {
       return(list(p_value = 1, test_method = "no-diff"))
     } else {
-      # 常数非零，用精确符号检验（强烈建议报告这个 p，一眼看方向占比）
       k <- sum(d > 0); n_nonzero <- sum(d != 0)
       p <- binom.test(k, n_nonzero, p = 0.5, alternative = "two.sided")$p.value
       return(list(p_value = p, test_method = "Sign test (binom)"))
     }
   }
-  # 非常数向量再做 Shapiro；n>=3 才有意义
   shapiro_p <- if (n >= 3) {
     tryCatch(shapiro.test(d)$p.value, error = function(e) NA_real_)
   } else NA_real_
   
   if (!is.na(shapiro_p) && shapiro_p > 0.05) {
-    # 配对 t 等价于对差值做单样本 t：mu=0
     p <- t.test(d, mu = 0)$p.value
     return(list(p_value = p, test_method = "paired t-test"))
   } else {
-    # 非正态或样本太少：Wilcoxon，考虑 ties
     p <- suppressWarnings(wilcox.test(d,alternative = "two.sided",mu = 0, exact = FALSE, correct = TRUE)$p.value)
     return(list(p_value = p, test_method = "Wilcoxon signed-rank"))
   }
@@ -81,7 +77,7 @@ annotation_df <- filtered_df %>%
     se_diff   = sd(diff, na.rm = TRUE) / sqrt(n()),
     lower_ci  = mean_diff - qt(0.975, df = n()-1) * se_diff,
     upper_ci  = mean_diff + qt(0.975, df = n()-1) * se_diff,
-    test      = list(perform_tests(diff)),  # <- 返回 list，类型更安全
+    test      = list(perform_tests(diff)), 
     .groups   = "drop"
   ) %>%
   mutate(
