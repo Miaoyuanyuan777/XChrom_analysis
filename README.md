@@ -59,13 +59,13 @@ This directory contains:
 ---
 ## **Model evaluation**
 
-Since XChrom predicts binarized chromatin accessibility (with sequencing count ≥ 1 as the true label), auROC and auPRC are the primary evaluation metrics for the model's discriminative ability. These metrics were calculated at three levels: 
-(i)	overall metrics: calculated across all test cells and peak regions;  
-(ii)	per-peak metrics: calculated for each peak region across test cells, then averaged over all test peak regions; 
-(iii)	per-cell metrics: calculated for each cell across all test peak regions, then averaged over all test cells.
-We also adopted NS and LS to evaluate the cell identity fidelity of raw and denoised scATAC-seq data. Both metrics were calculated using KNN graphs at different neighborhood scales (k=10, 50, 100), which were constructed in PCA-reduced space.
-(i)	NS: Independent KNN graphs were constructed using paired scRNA-seq and scATAC-seq data, respectively. NS quantifies the percentage of overlapping neighbors for each cell between the two graphs.
-(ii)	LS: For a given KNN graph of scATAC-seq data, LS quantifies the percentage of a cell's neighbors that share the same cell-type label within the neighborhood. Since ground-truth cell types were unavailable for some datasets, Leiden clusters derived from scRNA-seq data were used as proxy cell-type labels.
+Since XChrom predicts binarized chromatin accessibility (with sequencing count ≥ 1 as the true label), auROC and auPRC are the primary evaluation metrics for the model's discriminative ability. These metrics were calculated at three levels:                  
+(i)	overall metrics: calculated across all test cells and peak regions;                               
+(ii)	per-peak metrics: calculated for each peak region across test cells, then averaged over all test peak regions;             
+(iii)	per-cell metrics: calculated for each cell across all test peak regions, then averaged over all test cells.                
+We also adopted NS and LS to evaluate the cell identity fidelity of raw and denoised scATAC-seq data. Both metrics were calculated using KNN graphs at different neighborhood scales (k=10, 50, 100), which were constructed in PCA-reduced space.                    
+(i)	NS: Independent KNN graphs were constructed using paired scRNA-seq and scATAC-seq data, respectively. NS quantifies the percentage of overlapping neighbors for each cell between the two graphs.                                                          
+(ii)	LS: For a given KNN graph of scATAC-seq data, LS quantifies the percentage of a cell's neighbors that share the same cell-type label within the neighborhood. Since ground-truth cell types were unavailable for some datasets, Leiden clusters derived from scRNA-seq data were used as proxy cell-type labels.                                
 
 ## **Download data**
 
