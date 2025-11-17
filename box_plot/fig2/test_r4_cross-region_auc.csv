@@ -1,0 +1,61 @@
+Method,Metric,Dataset,Value
+XChrom,auROC,h_brain,0.8019
+XChrom,per cell auROC,h_brain,0.7261
+XChrom,per peak auROC,h_brain,0.7647
+XChrom,auPRC,h_brain,0.4649
+XChrom,per cell auPRC,h_brain,0.3144
+XChrom,per peak auPRC,h_brain,0.3757
+XChrom,auROC,h_gonads,0.7861
+XChrom,per cell auROC,h_gonads,0.7301
+XChrom,per peak auROC,h_gonads,0.6888
+XChrom,auPRC,h_gonads,0.2144
+XChrom,per cell auPRC,h_gonads,0.1483
+XChrom,per peak auPRC,h_gonads,0.116
+XChrom,auROC,h_pbmc,0.6975
+XChrom,per cell auROC,h_pbmc,0.639
+XChrom,per peak auROC,h_pbmc,0.6616
+XChrom,auPRC,h_pbmc,0.3819
+XChrom,per cell auPRC,h_pbmc,0.3256
+XChrom,per peak auPRC,h_pbmc,0.3134
+XChrom,auROC,m_brain,0.7952
+XChrom,per cell auROC,m_brain,0.735
+XChrom,per peak auROC,m_brain,0.7322
+XChrom,auPRC,m_brain,0.4394
+XChrom,per cell auPRC,m_brain,0.3388
+XChrom,per peak auPRC,m_brain,0.2924
+XChrom,auROC,m_palates,0.7987
+XChrom,per cell auROC,m_palates,0.6901
+XChrom,per peak auROC,m_palates,0.7544
+XChrom,auPRC,m_palates,0.4068
+XChrom,per cell auPRC,m_palates,0.2679
+XChrom,per peak auPRC,m_palates,0.2928
+scBasset,auROC,h_brain,0.8028
+scBasset,per cell auROC,h_brain,0.7302
+scBasset,per peak auROC,h_brain,0.7629
+scBasset,auPRC,h_brain,0.4723
+scBasset,per cell auPRC,h_brain,0.3262
+scBasset,per peak auPRC,h_brain,0.3763
+scBasset,auROC,h_gonads,0.787
+scBasset,per cell auROC,h_gonads,0.7319
+scBasset,per peak auROC,h_gonads,0.6918
+scBasset,auPRC,h_gonads,0.2173
+scBasset,per cell auPRC,h_gonads,0.1542
+scBasset,per peak auPRC,h_gonads,0.1172
+scBasset,auROC,h_pbmc,0.6927
+scBasset,per cell auROC,h_pbmc,0.6338
+scBasset,per peak auROC,h_pbmc,0.6612
+scBasset,auPRC,h_pbmc,0.362
+scBasset,per cell auPRC,h_pbmc,0.3114
+scBasset,per peak auPRC,h_pbmc,0.3035
+scBasset,auROC,m_brain,0.7966
+scBasset,per cell auROC,m_brain,0.7359
+scBasset,per peak auROC,m_brain,0.7348
+scBasset,auPRC,m_brain,0.4433
+scBasset,per cell auPRC,m_brain,0.3428
+scBasset,per peak auPRC,m_brain,0.2988
+scBasset,auROC,m_palates,0.8016
+scBasset,per cell auROC,m_palates,0.6955
+scBasset,per peak auROC,m_palates,0.7597
+scBasset,auPRC,m_palates,0.4129
+scBasset,per cell auPRC,m_palates,0.2766
+scBasset,per peak auPRC,m_palates,0.2988

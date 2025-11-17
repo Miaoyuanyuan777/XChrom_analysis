@@ -1,0 +1,91 @@
+Test,Metric,Dataset,Value
+cross-both,auROC,h_brain,0.8001
+cross-both,per cell auROC,h_brain,0.7261
+cross-both,per peak auROC,h_brain,0.7647
+cross-both,auPRC,h_brain,0.4529
+cross-both,per cell auPRC,h_brain,0.3144
+cross-both,per peak auPRC,h_brain,0.3757
+cross-cell,auROC,h_brain,0.8425
+cross-cell,per cell auROC,h_brain,0.7935
+cross-cell,per peak auROC,h_brain,0.7853
+cross-cell,auPRC,h_brain,0.5157
+cross-cell,per cell auPRC,h_brain,0.3739
+cross-cell,per peak auPRC,h_brain,0.4059
+cross-region,auROC,h_brain,0.8019
+cross-region,per cell auROC,h_brain,0.7261
+cross-region,per peak auROC,h_brain,0.7647
+cross-region,auPRC,h_brain,0.4649
+cross-region,per cell auPRC,h_brain,0.3144
+cross-region,per peak auPRC,h_brain,0.3757
+cross-both,auROC,h_gonads,0.7854
+cross-both,per cell auROC,h_gonads,0.7297
+cross-both,per peak auROC,h_gonads,0.6885
+cross-both,auPRC,h_gonads,0.2191
+cross-both,per cell auPRC,h_gonads,0.1515
+cross-both,per peak auPRC,h_gonads,0.1316
+cross-cell,auROC,h_gonads,0.8206
+cross-cell,per cell auROC,h_gonads,0.7805
+cross-cell,per peak auROC,h_gonads,0.7056
+cross-cell,auPRC,h_gonads,0.2557
+cross-cell,per cell auPRC,h_gonads,0.1788
+cross-cell,per peak auPRC,h_gonads,0.1317
+cross-region,auROC,h_gonads,0.7861
+cross-region,per cell auROC,h_gonads,0.7301
+cross-region,per peak auROC,h_gonads,0.6888
+cross-region,auPRC,h_gonads,0.2144
+cross-region,per cell auPRC,h_gonads,0.1483
+cross-region,per peak auPRC,h_gonads,0.116
+cross-both,auROC,h_pbmc,0.6925
+cross-both,per cell auROC,h_pbmc,0.6364
+cross-both,per peak auROC,h_pbmc,0.6541
+cross-both,auPRC,h_pbmc,0.3803
+cross-both,per cell auPRC,h_pbmc,0.3277
+cross-both,per peak auPRC,h_pbmc,0.3286
+cross-cell,auROC,h_pbmc,0.8283
+cross-cell,per cell auROC,h_pbmc,0.8035
+cross-cell,per peak auROC,h_pbmc,0.7222
+cross-cell,auPRC,h_pbmc,0.5823
+cross-cell,per cell auPRC,h_pbmc,0.522
+cross-cell,per peak auPRC,h_pbmc,0.3759
+cross-region,auROC,h_pbmc,0.6975
+cross-region,per cell auROC,h_pbmc,0.639
+cross-region,per peak auROC,h_pbmc,0.6616
+cross-region,auPRC,h_pbmc,0.3819
+cross-region,per cell auPRC,h_pbmc,0.3256
+cross-region,per peak auPRC,h_pbmc,0.3134
+cross-both,auROC,m_brain,0.7975
+cross-both,per cell auROC,m_brain,0.7349
+cross-both,per peak auROC,m_brain,0.7369
+cross-both,auPRC,m_brain,0.4455
+cross-both,per cell auPRC,m_brain,0.3387
+cross-both,per peak auPRC,m_brain,0.324
+cross-cell,auROC,m_brain,0.8219
+cross-cell,per cell auROC,m_brain,0.771
+cross-cell,per peak auROC,m_brain,0.7519
+cross-cell,auPRC,m_brain,0.4845
+cross-cell,per cell auPRC,m_brain,0.3707
+cross-cell,per peak auPRC,m_brain,0.3404
+cross-region,auROC,m_brain,0.7952
+cross-region,per cell auROC,m_brain,0.735
+cross-region,per peak auROC,m_brain,0.7322
+cross-region,auPRC,m_brain,0.4394
+cross-region,per cell auPRC,m_brain,0.3388
+cross-region,per peak auPRC,m_brain,0.2924
+cross-both,auROC,m_palates,0.8027
+cross-both,per cell auROC,m_palates,0.6906
+cross-both,per peak auROC,m_palates,0.7611
+cross-both,auPRC,m_palates,0.4127
+cross-both,per cell auPRC,m_palates,0.268
+cross-both,per peak auPRC,m_palates,0.3122
+cross-cell,auROC,m_palates,0.8262
+cross-cell,per cell auROC,m_palates,0.7348
+cross-cell,per peak auROC,m_palates,0.7733
+cross-cell,auPRC,m_palates,0.4557
+cross-cell,per cell auPRC,m_palates,0.297
+cross-cell,per peak auPRC,m_palates,0.327
+cross-region,auROC,m_palates,0.7987
+cross-region,per cell auROC,m_palates,0.6901
+cross-region,per peak auROC,m_palates,0.7544
+cross-region,auPRC,m_palates,0.4068
+cross-region,per cell auPRC,m_palates,0.2679
+cross-region,per peak auPRC,m_palates,0.2928

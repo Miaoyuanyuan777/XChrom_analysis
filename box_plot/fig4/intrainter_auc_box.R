@@ -2,8 +2,12 @@ library(ggplot2)
 library(readr)
 library(dplyr)
 library(tidyr)
-df <- read_csv("intrainter_auc.csv")
+library(purrr)
+library(jsonlite)
 
+
+df <- read_csv("test_r4_intrainter_auc.csv")
+r=4
 # Convert Metric & Scenario & Dataset to factor and specify the order
 df$Metric <- factor(df$Metric, levels = c("auROC", "per cell auROC", "per peak auROC", 
                                           "auPRC", "per cell auPRC", "per peak auPRC"))
@@ -22,6 +26,42 @@ y_pos <- df %>%
   group_by(Metric) %>% 
   summarise(max_val = max(Value))
 
+perform_tests <- function(differences, digits_round = r,
+                          exact = FALSE, correct = TRUE) {
+  d <- differences[is.finite(differences)]
+  if (!is.null(digits_round)) d <- round(d, digits_round)  # 固化 ties（关键！）
+  
+  n <- length(d)
+  if (n < 2) return(list(p_value = NA_real_, test_method = "insufficient_n"))
+  
+  if (sd(d) == 0) {
+    if (all(abs(d) < .Machine$double.eps)) {
+      return(list(p_value = 1, test_method = "no-diff"))
+    } else {
+      # 常数非零，用精确符号检验（强烈建议报告这个 p，一眼看方向占比）
+      k <- sum(d > 0); n_nonzero <- sum(d != 0)
+      p <- binom.test(k, n_nonzero, p = 0.5, alternative = "two.sided")$p.value
+      return(list(p_value = p, test_method = "Sign test (binom)"))
+    }
+  }
+  # 非常数向量再做 Shapiro；n>=3 才有意义
+  shapiro_p <- if (n >= 3) {
+    tryCatch(shapiro.test(d)$p.value, error = function(e) NA_real_)
+  } else NA_real_
+  
+  if (!is.na(shapiro_p) && shapiro_p > 0.05) {
+    # 配对 t 等价于对差值做单样本 t：mu=0
+    p <- t.test(d, mu = 0)$p.value
+    return(list(p_value = p, test_method = "paired t-test"))
+  } else {
+    # 非正态或样本太少：Wilcoxon，考虑 ties
+    p <- suppressWarnings(wilcox.test(d,alternative = "two.sided",mu = 0, exact = FALSE, correct = TRUE)$p.value)
+    return(list(p_value = p, test_method = "Wilcoxon signed-rank"))
+  }
+}
+
+
+
 # Calculate statistical results
 annotation_df <- df %>%
   pivot_wider(names_from = Scenario, values_from = Value) %>%
@@ -32,21 +72,34 @@ annotation_df <- df %>%
     se_diff = sd(diff, na.rm = TRUE) / sqrt(n()),
     lower_ci = mean_diff - qt(0.975, df = n()-1) * se_diff,
     upper_ci = mean_diff + qt(0.975, df = n()-1) * se_diff,
-    p_value = t.test(intra, inter, paired = TRUE)$p.value,
+    test= list(perform_tests(diff)),
     .groups = "drop"
   ) %>%
-  mutate(p_value_label=ifelse(p_value < 0.05,
+  mutate(
+    p_value = as.numeric(purrr::map_dbl(test, "p_value")),
+    test_method = purrr::map_chr(test, "test_method"),
+    p_value_label=ifelse(p_value < 0.05,
                            paste0("p = ", signif(p_value, digits = 3)
                                   ),NA_character_))%>%
   mutate(MetricType = factor(case_when(
     grepl("auROC", Metric) ~ "auROC",
     grepl("auPRC", Metric) ~ "auPRC"),
     levels = c("auROC", "auPRC")))
+
 # Merge the MetricType and Y-axis position information
 annotation_df <- left_join(annotation_df, y_pos, by = "Metric")
 annotation_df$y_position <- ifelse(annotation_df$p_value < 0.05,
                                    annotation_df$max_val + 0.02, 
                                    NA_real_) 
+
+
+
+out <- annotation_df %>%
+  mutate(test = map_chr(test, ~ toJSON(.x, auto_unbox = TRUE)))
+write_csv(out, paste0('intrainter_aucprc_r',r,"_test.csv"))
+
+
+
 
 ggplot(df, aes(x = Metric, y = Value,)) +
   geom_boxplot(aes(group = interaction(Metric, Scenario), fill = Scenario), 
@@ -54,8 +107,8 @@ ggplot(df, aes(x = Metric, y = Value,)) +
   geom_jitter(
     aes(group = interaction(Metric, Scenario), shape = Dataset),
     position = position_jitterdodge(
-      jitter.width = 0.3,   
-      dodge.width = 0.6     
+      jitter.width = 0.3,   # 控制抖动幅度
+      dodge.width = 0.6     # 控制不同 Scenario 的间距
     ),size = 3,alpha = 0.8,color = "black",stroke = 1)+
   scale_fill_manual(values = c("intra" = "#aed09c", "inter" = "#FFD700")) + 
   scale_shape_manual(
@@ -91,6 +144,6 @@ ggplot(df, aes(x = Metric, y = Value,)) +
     inherit.aes = FALSE,size = 4,
     color = "black",hjust = 0.5)
 
-ggsave("intrainter_auc_box.pdf", plot = last_plot(), 
+ggsave(paste0("intrainter_auc_r",r,'.pdf'), plot = last_plot(), 
        width = 10, height = 6, units = "in",dpi = 300)
 

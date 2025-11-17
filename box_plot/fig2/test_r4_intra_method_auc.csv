@@ -1,0 +1,121 @@
+Method,Metric,Dataset,Value
+Seurat,auROC,h_brain,0.7386
+Seurat,per cell auROC,h_brain,0.73
+Seurat,per peak auROC,h_brain,0.6388
+Seurat,auPRC,h_brain,0.3528
+Seurat,per cell auPRC,h_brain,0.3045
+Seurat,per peak auPRC,h_brain,0.2558
+LS_Lab,auROC,h_brain,0.8128
+LS_Lab,per cell auROC,h_brain,0.7993
+LS_Lab,per peak auROC,h_brain,0.7262
+LS_Lab,auPRC,h_brain,0.4426
+LS_Lab,per cell auPRC,h_brain,0.3814
+LS_Lab,per peak auPRC,h_brain,0.3362
+MultiVI,auROC,h_brain,0.8147
+MultiVI,per cell auROC,h_brain,0.8028
+MultiVI,per peak auROC,h_brain,0.7282
+MultiVI,auPRC,h_brain,0.4334
+MultiVI,per cell auPRC,h_brain,0.3792
+MultiVI,per peak auPRC,h_brain,0.3423
+XChrom,auROC,h_brain,0.8425
+XChrom,per cell auROC,h_brain,0.7935
+XChrom,per peak auROC,h_brain,0.7853
+XChrom,auPRC,h_brain,0.5157
+XChrom,per cell auPRC,h_brain,0.3739
+XChrom,per peak auPRC,h_brain,0.4059
+Seurat,auROC,h_gonads,0.6662
+Seurat,per cell auROC,h_gonads,0.6604
+Seurat,per peak auROC,h_gonads,0.5238
+Seurat,auPRC,h_gonads,0.1171
+Seurat,per cell auPRC,h_gonads,0.1114
+Seurat,per peak auPRC,h_gonads,0.0671
+LS_Lab,auROC,h_gonads,0.7944
+LS_Lab,per cell auROC,h_gonads,0.7842
+LS_Lab,per peak auROC,h_gonads,0.6296
+LS_Lab,auPRC,h_gonads,0.2102
+LS_Lab,per cell auPRC,h_gonads,0.1819
+LS_Lab,per peak auPRC,h_gonads,0.0996
+MultiVI,auROC,h_gonads,0.7843
+MultiVI,per cell auROC,h_gonads,0.7838
+MultiVI,per peak auROC,h_gonads,0.5914
+MultiVI,auPRC,h_gonads,0.1848
+MultiVI,per cell auPRC,h_gonads,0.1803
+MultiVI,per peak auPRC,h_gonads,0.0816
+XChrom,auROC,h_gonads,0.8206
+XChrom,per cell auROC,h_gonads,0.7805
+XChrom,per peak auROC,h_gonads,0.7056
+XChrom,auPRC,h_gonads,0.2557
+XChrom,per cell auPRC,h_gonads,0.1788
+XChrom,per peak auPRC,h_gonads,0.1317
+Seurat,auROC,h_pbmc,0.7584
+Seurat,per cell auROC,h_pbmc,0.7641
+Seurat,per peak auROC,h_pbmc,0.6003
+Seurat,auPRC,h_pbmc,0.4725
+Seurat,per cell auPRC,h_pbmc,0.4721
+Seurat,per peak auPRC,h_pbmc,0.2822
+LS_Lab,auROC,h_pbmc,0.8105
+LS_Lab,per cell auROC,h_pbmc,0.8138
+LS_Lab,per peak auROC,h_pbmc,0.656
+LS_Lab,auPRC,h_pbmc,0.5399
+LS_Lab,per cell auPRC,h_pbmc,0.5359
+LS_Lab,per peak auPRC,h_pbmc,0.318
+MultiVI,auROC,h_pbmc,0.8071
+MultiVI,per cell auROC,h_pbmc,0.8132
+MultiVI,per peak auROC,h_pbmc,0.6395
+MultiVI,auPRC,h_pbmc,0.5102
+MultiVI,per cell auPRC,h_pbmc,0.5165
+MultiVI,per peak auPRC,h_pbmc,0.3012
+XChrom,auROC,h_pbmc,0.8283
+XChrom,per cell auROC,h_pbmc,0.8035
+XChrom,per peak auROC,h_pbmc,0.7222
+XChrom,auPRC,h_pbmc,0.5823
+XChrom,per cell auPRC,h_pbmc,0.522
+XChrom,per peak auPRC,h_pbmc,0.3759
+Seurat,auROC,m_brain,0.6982
+Seurat,per cell auROC,m_brain,0.7057
+Seurat,per peak auROC,m_brain,0.5729
+Seurat,auPRC,m_brain,0.3083
+Seurat,per cell auPRC,m_brain,0.3014
+Seurat,per peak auPRC,m_brain,0.1963
+LS_Lab,auROC,m_brain,0.7671
+LS_Lab,per cell auROC,m_brain,0.7704
+LS_Lab,per peak auROC,m_brain,0.6453
+LS_Lab,auPRC,m_brain,0.3878
+LS_Lab,per cell auPRC,m_brain,0.3723
+LS_Lab,per peak auPRC,m_brain,0.2442
+MultiVI,auROC,m_brain,0.769
+MultiVI,per cell auROC,m_brain,0.7726
+MultiVI,per peak auROC,m_brain,0.6439
+MultiVI,auPRC,m_brain,0.3812
+MultiVI,per cell auPRC,m_brain,0.3684
+MultiVI,per peak auPRC,m_brain,0.2497
+XChrom,auROC,m_brain,0.8219
+XChrom,per cell auROC,m_brain,0.771
+XChrom,per peak auROC,m_brain,0.7519
+XChrom,auPRC,m_brain,0.4845
+XChrom,per cell auPRC,m_brain,0.3707
+XChrom,per peak auPRC,m_brain,0.3404
+Seurat,auROC,m_palates,0.6624
+Seurat,per cell auROC,m_palates,0.6602
+Seurat,per peak auROC,m_palates,0.556
+Seurat,auPRC,m_palates,0.2512
+Seurat,per cell auPRC,m_palates,0.2345
+Seurat,per peak auPRC,m_palates,0.1762
+LS_Lab,auROC,m_palates,0.7504
+LS_Lab,per cell auROC,m_palates,0.7351
+LS_Lab,per peak auROC,m_palates,0.6525
+LS_Lab,auPRC,m_palates,0.3432
+LS_Lab,per cell auPRC,m_palates,0.2993
+LS_Lab,per peak auPRC,m_palates,0.2308
+MultiVI,auROC,m_palates,0.7364
+MultiVI,per cell auROC,m_palates,0.7363
+MultiVI,per peak auROC,m_palates,0.6237
+MultiVI,auPRC,m_palates,0.3113
+MultiVI,per cell auPRC,m_palates,0.2972
+MultiVI,per peak auPRC,m_palates,0.219
+XChrom,auROC,m_palates,0.8262
+XChrom,per cell auROC,m_palates,0.7348
+XChrom,per peak auROC,m_palates,0.7733
+XChrom,auPRC,m_palates,0.4557
+XChrom,per cell auPRC,m_palates,0.297
+XChrom,per peak auPRC,m_palates,0.327

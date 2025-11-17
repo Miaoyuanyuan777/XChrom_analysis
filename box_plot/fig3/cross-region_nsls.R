@@ -2,7 +2,13 @@ library(ggplot2)
 library(readr)
 library(dplyr)
 library(tidyr)
-df <- read_csv('cross-region_nsls.csv')
+library(purrr)
+library(jsonlite)
+
+
+df <- read_csv('test_r4_cross-region_nsls.csv')
+r=4
+
 # Convert Metric & Method & Dataset to factor and specify the order
 df$Metric <- factor(df$Metric, levels = c("ns(10)", "ns(50)", "ns(100)", 
                                           "ls(10)", "ls(50)", "ls(100)"))
@@ -40,6 +46,44 @@ comparison_data <- df %>%
   inner_join(xchrom_data, by = c("Dataset", "Metric", "MetricType")) %>%
   mutate(diff = Value_XChrom - Value)
 
+
+
+perform_tests <- function(differences, digits_round = r,
+                          exact = FALSE, correct = TRUE) {
+  d <- differences[is.finite(differences)]
+  if (!is.null(digits_round)) d <- round(d, digits_round)  # 固化 ties（关键！）
+  
+  n <- length(d)
+  if (n < 2) return(list(p_value = NA_real_, test_method = "insufficient_n"))
+  
+  if (sd(d) == 0) {
+    if (all(abs(d) < .Machine$double.eps)) {
+      return(list(p_value = 1, test_method = "no-diff"))
+    } else {
+      # 常数非零，用精确符号检验（强烈建议报告这个 p，一眼看方向占比）
+      k <- sum(d > 0); n_nonzero <- sum(d != 0)
+      p <- binom.test(k, n_nonzero, p = 0.5, alternative = "two.sided")$p.value
+      return(list(p_value = p, test_method = "Sign test (binom)"))
+    }
+  }
+  # 非常数向量再做 Shapiro；n>=3 才有意义
+  shapiro_p <- if (n >= 3) {
+    tryCatch(shapiro.test(d)$p.value, error = function(e) NA_real_)
+  } else NA_real_
+  
+  if (!is.na(shapiro_p) && shapiro_p > 0.05) {
+    # 配对 t 等价于对差值做单样本 t：mu=0
+    p <- t.test(d, mu = 0)$p.value
+    return(list(p_value = p, test_method = "paired t-test"))
+  } else {
+    # 非正态或样本太少：Wilcoxon，考虑 ties
+    p <- suppressWarnings(wilcox.test(d,alternative = "two.sided",mu = 0, exact = FALSE, correct = TRUE)$p.value)
+    return(list(p_value = p, test_method = "Wilcoxon signed-rank"))
+  }
+}
+
+
+
 # Calculate statistical results
 annotation_df <- comparison_data %>%
   group_by(Metric, Method) %>%  # Group by Metric & Method
@@ -48,10 +92,12 @@ annotation_df <- comparison_data %>%
     se_diff = sd(diff, na.rm = TRUE) / sqrt(n()),
     lower_ci = mean_diff - qt(0.975, df = n()-1) * se_diff,
     upper_ci = mean_diff + qt(0.975, df = n()-1) * se_diff,
-    p_value = t.test(Value_XChrom, Value, paired = TRUE)$p.value,
+    test = list(perform_tests(diff)),
     .groups = "drop"
   ) %>%
   mutate(
+    p_value = as.numeric(purrr::map_dbl(test, "p_value")),
+    test_method = purrr::map_chr(test, "test_method"),
     p_value_label = ifelse(p_value < 0.05,
                            paste0("p = ", signif(p_value, digits = 3)),
                            NA_character_)
@@ -63,6 +109,14 @@ annotation_df <- comparison_data %>%
     by = "Metric"
   ) %>% 
   mutate(y_position = ifelse(p_value < 0.05, max_val + 0.1, NA_real_))
+
+
+out <- annotation_df %>%
+  mutate(test = map_chr(test, ~ toJSON(.x, auto_unbox = TRUE)))
+write_csv(out, paste0('denoise_nsls','_r',r,"_test.csv"))
+
+
+
 
 
 ggplot(df, aes(x = Metric, y = Value,)) +
@@ -110,5 +164,5 @@ ggplot(df, aes(x = Metric, y = Value,)) +
     inherit.aes = FALSE,size = 5,
     color = "black",hjust = 0.5)
 
-ggsave("denoise_nsls_box.pdf", plot = last_plot(), 
+ggsave(paste0('denosie_nsls_r',r,'.pdf'), plot = last_plot(), 
        width = 14, height = 9, units = "in",dpi=300)

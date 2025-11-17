@@ -1,0 +1,121 @@
+Method,Metric,Dataset,Value
+Seurat,auROC,s1d1-s1d2,0.7170 
+Seurat,auROC,s1d1-s2d1,0.6957
+Seurat,auROC,s4d8-s2d4,0.7223
+Seurat,auROC,s3d3-s4d1,0.716
+Seurat,auROC,s2d5-s3d10,0.6616
+Seurat,per cell auROC,s1d1-s1d2,0.7184
+Seurat,per cell auROC,s1d1-s2d1,0.6975
+Seurat,per cell auROC,s4d8-s2d4,0.723
+Seurat,per cell auROC,s3d3-s4d1,0.7235
+Seurat,per cell auROC,s2d5-s3d10,0.6663
+Seurat,per peak auROC,s1d1-s1d2,0.5528
+Seurat,per peak auROC,s1d1-s2d1,0.5576
+Seurat,per peak auROC,s4d8-s2d4,0.5879
+Seurat,per peak auROC,s3d3-s4d1,0.572
+Seurat,per peak auROC,s2d5-s3d10,0.54
+Seurat,auPRC,s1d1-s1d2,0.1617
+Seurat,auPRC,s1d1-s2d1,0.1094
+Seurat,auPRC,s4d8-s2d4,0.1105
+Seurat,auPRC,s3d3-s4d1,0.125
+Seurat,auPRC,s2d5-s3d10,0.1017
+Seurat,per cell auPRC,s1d1-s1d2,0.1600 
+Seurat,per cell auPRC,s1d1-s2d1,0.1085
+Seurat,per cell auPRC,s4d8-s2d4,0.11
+Seurat,per cell auPRC,s3d3-s4d1,0.1298
+Seurat,per cell auPRC,s2d5-s3d10,0.1048
+Seurat,per peak auPRC,s1d1-s1d2,0.0764
+Seurat,per peak auPRC,s1d1-s2d1,0.0576
+Seurat,per peak auPRC,s4d8-s2d4,0.0565
+Seurat,per peak auPRC,s3d3-s4d1,0.0608
+Seurat,per peak auPRC,s2d5-s3d10,0.0576
+LS_Lab,auROC,s1d1-s1d2,0.8318
+LS_Lab,auROC,s1d1-s2d1,0.8063
+LS_Lab,auROC,s4d8-s2d4,0.8085
+LS_Lab,auROC,s3d3-s4d1,0.8222
+LS_Lab,auROC,s2d5-s3d10,0.7973
+LS_Lab,per cell auROC,s1d1-s1d2,0.8314
+LS_Lab,per cell auROC,s1d1-s2d1,0.8068
+LS_Lab,per cell auROC,s4d8-s2d4,0.8136
+LS_Lab,per cell auROC,s3d3-s4d1,0.8238
+LS_Lab,per cell auROC,s2d5-s3d10,0.7978
+LS_Lab,per peak auROC,s1d1-s1d2,0.6564
+LS_Lab,per peak auROC,s1d1-s2d1,0.6649
+LS_Lab,per peak auROC,s4d8-s2d4,0.6535
+LS_Lab,per peak auROC,s3d3-s4d1,0.687
+LS_Lab,per peak auROC,s2d5-s3d10,0.6496
+LS_Lab,auPRC,s1d1-s1d2,0.2713
+LS_Lab,auPRC,s1d1-s2d1,0.1775
+LS_Lab,auPRC,s4d8-s2d4,0.1661
+LS_Lab,auPRC,s3d3-s4d1,0.2028
+LS_Lab,auPRC,s2d5-s3d10,0.1952
+LS_Lab,per cell auPRC,s1d1-s1d2,0.2535
+LS_Lab,per cell auPRC,s1d1-s2d1,0.1679
+LS_Lab,per cell auPRC,s4d8-s2d4,0.1672
+LS_Lab,per cell auPRC,s3d3-s4d1,0.2014
+LS_Lab,per cell auPRC,s2d5-s3d10,0.1862
+LS_Lab,per peak auPRC,s1d1-s1d2,0.1052
+LS_Lab,per peak auPRC,s1d1-s2d1,0.0796
+LS_Lab,per peak auPRC,s4d8-s2d4,0.069
+LS_Lab,per peak auPRC,s3d3-s4d1,0.0869
+LS_Lab,per peak auPRC,s2d5-s3d10,0.0808
+MultiVI,auROC,s1d1-s1d2,0.8296
+MultiVI,auROC,s1d1-s2d1,0.8048
+MultiVI,auROC,s4d8-s2d4,0.8272
+MultiVI,auROC,s3d3-s4d1,0.8307
+MultiVI,auROC,s2d5-s3d10,0.7944
+MultiVI,per cell auROC,s1d1-s1d2,0.8321
+MultiVI,per cell auROC,s1d1-s2d1,0.8077
+MultiVI,per cell auROC,s4d8-s2d4,0.8289
+MultiVI,per cell auROC,s3d3-s4d1,0.8336
+MultiVI,per cell auROC,s2d5-s3d10,0.8001
+MultiVI,per peak auROC,s1d1-s1d2,0.6503
+MultiVI,per peak auROC,s1d1-s2d1,0.6603
+MultiVI,per peak auROC,s4d8-s2d4,0.6957
+MultiVI,per peak auROC,s3d3-s4d1,0.7014
+MultiVI,per peak auROC,s2d5-s3d10,0.6348
+MultiVI,auPRC,s1d1-s1d2,0.2548
+MultiVI,auPRC,s1d1-s2d1,0.1681
+MultiVI,auPRC,s4d8-s2d4,0.1736
+MultiVI,auPRC,s3d3-s4d1,0.2
+MultiVI,auPRC,s2d5-s3d10,0.1819
+MultiVI,per cell auPRC,s1d1-s1d2,0.2512
+MultiVI,per cell auPRC,s1d1-s2d1,0.1673
+MultiVI,per cell auPRC,s4d8-s2d4,0.1708
+MultiVI,per cell auPRC,s3d3-s4d1,0.2033
+MultiVI,per cell auPRC,s2d5-s3d10,0.1855
+MultiVI,per peak auPRC,s1d1-s1d2,0.0984
+MultiVI,per peak auPRC,s1d1-s2d1,0.075
+MultiVI,per peak auPRC,s4d8-s2d4,0.0757
+MultiVI,per peak auPRC,s3d3-s4d1,0.0873
+MultiVI,per peak auPRC,s2d5-s3d10,0.0715
+XChrom,auROC,s1d1-s1d2,0.8458
+XChrom,auROC,s1d1-s2d1,0.8405
+XChrom,auROC,s4d8-s2d4,0.8586
+XChrom,auROC,s3d3-s4d1,0.8539
+XChrom,auROC,s2d5-s3d10,0.8243
+XChrom,per cell auROC,s1d1-s1d2,0.8291
+XChrom,per cell auROC,s1d1-s2d1,0.8052
+XChrom,per cell auROC,s4d8-s2d4,0.8225
+XChrom,per cell auROC,s3d3-s4d1,0.8269
+XChrom,per cell auROC,s2d5-s3d10,0.7959
+XChrom,per peak auROC,s1d1-s1d2,0.7163
+XChrom,per peak auROC,s1d1-s2d1,0.7585
+XChrom,per peak auROC,s4d8-s2d4,0.7867
+XChrom,per peak auROC,s3d3-s4d1,0.7712
+XChrom,per peak auROC,s2d5-s3d10,0.7260 
+XChrom,auPRC,s1d1-s1d2,0.3074
+XChrom,auPRC,s1d1-s2d1,0.2351
+XChrom,auPRC,s4d8-s2d4,0.2455
+XChrom,auPRC,s3d3-s4d1,0.2596
+XChrom,auPRC,s2d5-s3d10,0.2346
+XChrom,per cell auPRC,s1d1-s1d2,0.2502
+XChrom,per cell auPRC,s1d1-s2d1,0.1659
+XChrom,per cell auPRC,s4d8-s2d4,0.1679
+XChrom,per cell auPRC,s3d3-s4d1,0.1992
+XChrom,per cell auPRC,s2d5-s3d10,0.1838
+XChrom,per peak auPRC,s1d1-s1d2,0.1323
+XChrom,per peak auPRC,s1d1-s2d1,0.1214
+XChrom,per peak auPRC,s4d8-s2d4,0.1243
+XChrom,per peak auPRC,s3d3-s4d1,0.1275
+XChrom,per peak auPRC,s2d5-s3d10,0.1084

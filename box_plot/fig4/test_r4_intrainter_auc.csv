@@ -1,0 +1,61 @@
+Metric,Dataset,Scenario,Value
+auROC,s1d2,intra,0.8476
+auROC,s2d1,intra,0.8452
+auROC,s2d4,intra,0.872
+auROC,s4d1,intra,0.8617
+auROC,s3d10,intra,0.8357
+auROC,s1d2,inter,0.8444
+auROC,s2d1,inter,0.8412
+auROC,s2d4,inter,0.8579
+auROC,s4d1,inter,0.8537
+auROC,s3d10,inter,0.8229
+per cell auROC,s1d2,intra,0.8323
+per cell auROC,s2d1,intra,0.8064
+per cell auROC,s2d4,intra,0.8368
+per cell auROC,s4d1,intra,0.8393
+per cell auROC,s3d10,intra,0.8105
+per cell auROC,s1d2,inter,0.829
+per cell auROC,s2d1,inter,0.8064
+per cell auROC,s2d4,inter,0.8211
+per cell auROC,s4d1,inter,0.8297
+per cell auROC,s3d10,inter,0.7964
+per peak auROC,s1d2,intra,0.7179
+per peak auROC,s2d1,intra,0.7621
+per peak auROC,s2d4,intra,0.7925
+per peak auROC,s4d1,intra,0.7779
+per peak auROC,s3d10,intra,0.7414
+per peak auROC,s1d2,inter,0.7136
+per peak auROC,s2d1,inter,0.76
+per peak auROC,s2d4,inter,0.7834
+per peak auROC,s4d1,inter,0.7698
+per peak auROC,s3d10,inter,0.7217
+auPRC,s1d2,intra,0.2973
+auPRC,s2d1,intra,0.2593
+auPRC,s2d4,intra,0.2659
+auPRC,s4d1,intra,0.2709
+auPRC,s3d10,intra,0.2502
+auPRC,s1d2,inter,0.2994
+auPRC,s2d1,inter,0.2512
+auPRC,s2d4,inter,0.2417
+auPRC,s4d1,inter,0.2608
+auPRC,s3d10,inter,0.2393
+per cell auPRC,s1d2,intra,0.2494
+per cell auPRC,s2d1,intra,0.1769
+per cell auPRC,s2d4,intra,0.1755
+per cell auPRC,s4d1,intra,0.2122
+per cell auPRC,s3d10,intra,0.1968
+per cell auPRC,s1d2,inter,0.2479
+per cell auPRC,s2d1,inter,0.1775
+per cell auPRC,s2d4,inter,0.1663
+per cell auPRC,s4d1,inter,0.2049
+per cell auPRC,s3d10,inter,0.1904
+per peak auPRC,s1d2,intra,0.1454
+per peak auPRC,s2d1,intra,0.1655
+per peak auPRC,s2d4,intra,0.1546
+per peak auPRC,s4d1,intra,0.1577
+per peak auPRC,s3d10,intra,0.1412
+per peak auPRC,s1d2,inter,0.1467
+per peak auPRC,s2d1,inter,0.1638
+per peak auPRC,s2d4,inter,0.1466
+per peak auPRC,s4d1,inter,0.1518
+per peak auPRC,s3d10,inter,0.1297
