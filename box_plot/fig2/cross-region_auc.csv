@@ -1,0 +1,61 @@
+Method,Metric,Dataset,Value
+XChrom,auROC,h_pbmc,0.6974937563653879
+XChrom,auROC,m_brain,0.7952478569770433
+XChrom,auROC,h_brain,0.8018790696247686
+XChrom,auROC,h_gonads,0.786129513261765
+XChrom,auROC,m_palates,0.7986997975019917
+XChrom,per cell auROC,h_pbmc,0.6389608179788886
+XChrom,per cell auROC,m_brain,0.7349773433471938
+XChrom,per cell auROC,h_brain,0.7260797890037421
+XChrom,per cell auROC,h_gonads,0.7301258716484639
+XChrom,per cell auROC,m_palates,0.6900575653784801
+XChrom,per peak auROC,h_pbmc,0.6616101903041683
+XChrom,per peak auROC,m_brain,0.7322237106015052
+XChrom,per peak auROC,h_brain,0.7647344620368018
+XChrom,per peak auROC,h_gonads,0.6888040175531083
+XChrom,per peak auROC,m_palates,0.7544073914542173
+XChrom,auPRC,h_pbmc,0.3818786734095207
+XChrom,auPRC,m_brain,0.43935317383885264
+XChrom,auPRC,h_brain,0.46492359113468684
+XChrom,auPRC,h_gonads,0.21440974882153582
+XChrom,auPRC,m_palates,0.4067556750351577
+XChrom,per cell auPRC,h_pbmc,0.3256010547306911
+XChrom,per cell auPRC,m_brain,0.33881192769001417
+XChrom,per cell auPRC,h_brain,0.314384203766527
+XChrom,per cell auPRC,h_gonads,0.1483199144123182
+XChrom,per cell auPRC,m_palates,0.26792090333257385
+XChrom,per peak auPRC,h_pbmc,0.31341560501611576
+XChrom,per peak auPRC,m_brain,0.29236280954338006
+XChrom,per peak auPRC,h_brain,0.3757109651266171
+XChrom,per peak auPRC,h_gonads,0.1160236279872443
+XChrom,per peak auPRC,m_palates,0.2928082126919515
+scBasset,auROC,h_brain,0.8007723910302363
+scBasset,per cell auROC,h_brain,0.7244814873675774
+scBasset,per peak auROC,h_brain,0.7641676115428297
+scBasset,auPRC,h_brain,0.46340906890276073
+scBasset,per cell auPRC,h_brain,0.3113949803163616
+scBasset,per peak auPRC,h_brain,0.37599393250808716
+scBasset,auROC,h_gonads,0.7863733741209666
+scBasset,per cell auROC,h_gonads,0.7300641985624907
+scBasset,per peak auROC,h_gonads,0.6909222119639625
+scBasset,auPRC,h_gonads,0.21646678939160585
+scBasset,per cell auPRC,h_gonads,0.1491374294010561
+scBasset,per peak auPRC,h_gonads,0.11660834229491017
+scBasset,auROC,h_pbmc,0.7008290108543176
+scBasset,per cell auROC,h_pbmc,0.6445221695123821
+scBasset,per peak auROC,h_pbmc,0.6638477729499042
+scBasset,auPRC,h_pbmc,0.3789714932274478
+scBasset,per cell auPRC,h_pbmc,0.3230665524809826
+scBasset,per peak auPRC,h_pbmc,0.3155064111191862
+scBasset,auROC,m_brain,0.7964979162468667
+scBasset,per cell auROC,m_brain,0.7367924067017239
+scBasset,per peak auROC,m_brain,0.7347561295097089
+scBasset,auPRC,m_brain,0.44101013435824704
+scBasset,per cell auPRC,m_brain,0.3396034137101267
+scBasset,per peak auPRC,m_brain,0.29529389335427253
+scBasset,auROC,m_palates,0.79956236086129
+scBasset,per cell auROC,m_palates,0.690055302418068
+scBasset,per peak auROC,m_palates,0.7553800897400235
+scBasset,auPRC,m_palates,0.40950778022907947
+scBasset,per cell auPRC,m_palates,0.26886640639929665
+scBasset,per peak auPRC,m_palates,0.29460334747275796
