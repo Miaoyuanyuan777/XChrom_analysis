@@ -14,9 +14,9 @@ df_nsls$Metric <- factor(df_nsls$Metric, levels = c("ns(10)", "ns(50)", "ns(100)
 df_nsls$Test <- factor(df_nsls$Test, levels = c("test_cells", "denoise"))
 studies_levels <- c("RAW_atac", 
                     "RNA_shuffle", "RNA_random_easier","RNA_random","RNA_random_complex",
-                    "RNA_embed","RNA_embed_dense",
-                    "X_pca_z_layernorm", "X_pca_nodense", "X_pca_complex",
-                    "SEQ_embed","SEQ_sei","SEQ_easier","RNA_scVI", "RAW_XChrom")
+                    "cell_index","cell_index_dense",
+                    "X_pca_z_layernorm", "PCA_no_dense", "PCA_larger_dense",
+                    "seq_index","Sei","simpler_CNN","scVI", "XChrom")
 df_nsls$Studies <- factor(df_nsls$Studies, levels = studies_levels)
 
 df_nsls <- df_nsls %>% filter(!is.na(Metric) & !is.na(Studies) & !is.na(Test))
@@ -29,21 +29,21 @@ ggplot(df_nsls, aes(x = Metric, y = Value, fill = Studies)) +
   
   scale_fill_manual(
     values = c(
-      "RAW_XChrom"  = "#FF7F00", 
+      "XChrom"  = "#FF7F00", 
       # "RAW_atac"    = "#999999", 
-      "X_pca_nodense"     =  "#C6DBEF",
+      "PCA_no_dense"     =  "#C6DBEF",
       # "X_pca_z_layernorm" = "#99D8C9",
-      "X_pca_complex" = "#6BAED6",
-      "RNA_scVI"    = "#99D8C9", 
+      "PCA_larger_dense" = "#6BAED6",
+      "scVI"    = "#99D8C9", 
       # "RNA_shuffle" = "#6BAED6", 
       # "RNA_random"  = "#C6DBEF", 
       # "RNA_random_easier" = "#0066cc",
       # "RNA_random_complex" = "#33ccff",
-      "RNA_embed" = "#1C9099",
-      # "RNA_embed_dense" = "#31A354",
-      "SEQ_embed"  = "#CAB2D6",
-      "SEQ_sei" = "#8E62B5",# "#6A3D9A"
-      "SEQ_easier" = "#5B4B8A"
+      "cell_index" = "#1C9099",
+      # "cell_index_dense" = "#31A354",
+      "seq_index"  = "#CAB2D6",
+      "Sei" = "#8E62B5",# "#6A3D9A"
+      "simpler_CNN" = "#5B4B8A"
     )
   ) +
   scale_y_continuous(expand = expansion(mult = c(0, 0.15))) + 
@@ -88,21 +88,21 @@ df_nsls <- df_nsls %>%
   mutate(MetricType = ifelse(grepl("^ls", Metric), "Label Score (ls)", "Neighbor Score (ns)")) %>%
   mutate(MetricType = factor(MetricType, levels = c("Neighbor Score (ns)","Label Score (ls)")))
 study_colors <- c(
-  "RAW_XChrom"  = "#FF7F00", 
+  "XChrom"  = "#FF7F00", 
   "RAW_atac"    = "#999999",
-  "X_pca_nodense"     =  "#C6DBEF",
+  "PCA_no_dense"     =  "#C6DBEF",
   # "X_pca_z_layernorm" = "#99D8C9",
-  "X_pca_complex" = "#6BAED6",
-  "RNA_scVI"    = "#0066cc", 
+  "PCA_larger_dense" = "#6BAED6",
+  "scVI"    = "#0066cc", 
   # "RNA_shuffle" = "#6BAED6", 
   # "RNA_random"  = "#C6DBEF",
   # "RNA_random_easier" = "#0066cc",
   # "RNA_random_complex" = "#33ccff",
-  "RNA_embed" = "#33ccff",
-  # "RNA_embed_dense" = "#31A354",
-  "SEQ_embed"  = "#CAB2D6",
-  "SEQ_sei" = "#8E62B5",# "#6A3D9A"
-  "SEQ_easier" = "#5B4B8A"
+  "cell_index" = "#33ccff",
+  # "cell_index_dense" = "#31A354",
+  "seq_index"  = "#CAB2D6",
+  "Sei" = "#8E62B5",# "#6A3D9A"
+  "simpler_CNN" = "#5B4B8A"
 )
 plot_ablation_group <- function(data, target_studies, output_name) {
   sub_data <- data %>% filter(Studies %in% target_studies)
@@ -132,16 +132,16 @@ plot_ablation_group <- function(data, target_studies, output_name) {
 }
 
 plot_ablation_group(df_nsls,
-                    c( "RAW_atac","SEQ_embed","SEQ_easier","SEQ_sei","RAW_XChrom"),
+                    c( "RAW_atac","seq_index","simpler_CNN","Sei","XChrom"),
                     "group5_seq")
 
 plot_ablation_group(df_nsls, 
                     c("RAW_atac",
-                      "RNA_scVI",
-                      "RNA_embed",
-                      "X_pca_nodense", 
-                      "X_pca_complex", 
-                      "RAW_XChrom"
+                      "scVI",
+                      "cell_index",
+                      "PCA_no_dense", 
+                      "PCA_larger_dense", 
+                      "XChrom"
                       # "RNA_shuffle"
                     ), 
                     "group1_pca")
@@ -221,18 +221,17 @@ plot_ablation_group <- function(data, target_studies, output_name) {
 }
 
 
-# SEQ_random，RAW_XChrom，RAW_atac
 plot_ablation_group(df_nsls,
-                    c( "RAW_atac","SEQ_embed","SEQ_easier","SEQ_sei","RAW_XChrom"),
+                    c( "RAW_atac","seq_index","simpler_CNN","Sei","XChrom"),
                     "group5_seq")
 ggsave("ablation_dna_nsls.pdf", width = 12, height = 9, units = "in", dpi = 300)
 plot_ablation_group(df_nsls, 
                     c("RAW_atac",
-                      "RNA_scVI",
-                      "RNA_embed",
-                      "X_pca_nodense", 
-                      "X_pca_complex", 
-                      "RAW_XChrom"
+                      "scVI",
+                      "cell_index",
+                      "PCA_no_dense", 
+                      "PCA_larger_dense", 
+                      "XChrom"
                       # "RNA_shuffle"
                     ), 
                     "group1_pca")

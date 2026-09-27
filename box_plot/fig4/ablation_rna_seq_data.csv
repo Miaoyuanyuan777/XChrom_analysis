@@ -179,114 +179,114 @@ x_pca_z_layernorm,trainval_cells,ls(100),0.8715,RNA
 x_pca_z_layernorm,trainval_cells,ns(10),0.1793,RNA
 x_pca_z_layernorm,trainval_cells,ns(50),0.3398,RNA
 x_pca_z_layernorm,trainval_cells,ns(100),0.4323,RNA
-x_pca_nodense,cross_cell,auROC,0.6586,RNA
-x_pca_nodense,cross_cell,auPRC,0.3438,RNA
-x_pca_nodense,cross_cell,per cell auROC,0.5854,RNA
-x_pca_nodense,cross_cell,per cell auPRC,0.2905,RNA
-x_pca_nodense,cross_cell,per peak auROC,0.7024,RNA
-x_pca_nodense,cross_cell,per peak auPRC,0.3636,RNA
-x_pca_nodense,cross_region,auROC,0.6337,RNA
-x_pca_nodense,cross_region,auPRC,0.2957,RNA
-x_pca_nodense,cross_region,per cell auROC,0.5355,RNA
-x_pca_nodense,cross_region,per cell auPRC,0.238,RNA
-x_pca_nodense,cross_region,per peak auROC,0.6599,RNA
-x_pca_nodense,cross_region,per peak auPRC,0.3087,RNA
-x_pca_nodense,cross_both,auROC,0.626,RNA
-x_pca_nodense,cross_both,auPRC,0.2957,RNA
-x_pca_nodense,cross_both,per cell auROC,0.5312,RNA
-x_pca_nodense,cross_both,per cell auPRC,0.2383,RNA
-x_pca_nodense,cross_both,per peak auROC,0.6545,RNA
-x_pca_nodense,cross_both,per peak auPRC,0.3281,RNA
-x_pca_nodense,test_cells,ls(10),0.9465,RNA
-x_pca_nodense,test_cells,ls(50),0.9005,RNA
-x_pca_nodense,test_cells,ls(100),0.8662,RNA
-x_pca_nodense,test_cells,ns(10),0.6852,RNA
-x_pca_nodense,test_cells,ns(50),0.7635,RNA
-x_pca_nodense,test_cells,ns(100),0.7987,RNA
-x_pca_nodense,denoise,ls(10),0.9419,RNA
-x_pca_nodense,denoise,ls(50),0.8993,RNA
-x_pca_nodense,denoise,ls(100),0.8635,RNA
-x_pca_nodense,denoise,ns(10),0.6616,RNA
-x_pca_nodense,denoise,ns(50),0.7383,RNA
-x_pca_nodense,denoise,ns(100),0.7756,RNA
-x_pca_nodense,trainval_cells,ls(10),0.9425,RNA
-x_pca_nodense,trainval_cells,ls(50),0.8997,RNA
-x_pca_nodense,trainval_cells,ls(100),0.8637,RNA
-x_pca_nodense,trainval_cells,ns(10),0.6913,RNA
-x_pca_nodense,trainval_cells,ns(50),0.7658,RNA
-x_pca_nodense,trainval_cells,ns(100),0.8004,RNA
-x_pca_complex,cross_cell,auROC,0.8288,RNA
-x_pca_complex,cross_cell,auPRC,0.5828,RNA
-x_pca_complex,cross_cell,per cell auROC,0.8041,RNA
-x_pca_complex,cross_cell,per cell auPRC,0.5223,RNA
-x_pca_complex,cross_cell,per peak auROC,0.7231,RNA
-x_pca_complex,cross_cell,per peak auPRC,0.3772,RNA
-x_pca_complex,cross_region,auROC,0.7032,RNA
-x_pca_complex,cross_region,auPRC,0.3873,RNA
-x_pca_complex,cross_region,per cell auROC,0.6467,RNA
-x_pca_complex,cross_region,per cell auPRC,0.3309,RNA
-x_pca_complex,cross_region,per peak auROC,0.6648,RNA
-x_pca_complex,cross_region,per peak auPRC,0.3163,RNA
-x_pca_complex,cross_both,auROC,0.699,RNA
-x_pca_complex,cross_both,auPRC,0.3867,RNA
-x_pca_complex,cross_both,per cell auROC,0.6456,RNA
-x_pca_complex,cross_both,per cell auPRC,0.3337,RNA
-x_pca_complex,cross_both,per peak auROC,0.6582,RNA
-x_pca_complex,cross_both,per peak auPRC,0.3325,RNA
-x_pca_complex,test_cells,ls(10),0.9096,RNA
-x_pca_complex,test_cells,ls(50),0.8875,RNA
-x_pca_complex,test_cells,ls(100),0.8665,RNA
-x_pca_complex,test_cells,ns(10),0.1196,RNA
-x_pca_complex,test_cells,ns(50),0.2777,RNA
-x_pca_complex,test_cells,ns(100),0.3918,RNA
-x_pca_complex,denoise,ls(10),0.9126,RNA
-x_pca_complex,denoise,ls(50),0.8865,RNA
-x_pca_complex,denoise,ls(100),0.8646,RNA
-x_pca_complex,denoise,ns(10),0.1191,RNA
-x_pca_complex,denoise,ns(50),0.2769,RNA
-x_pca_complex,denoise,ns(100),0.3891,RNA
-x_pca_complex,trainval_cells,ls(10),0.9127,RNA
-x_pca_complex,trainval_cells,ls(50),0.8863,RNA
-x_pca_complex,trainval_cells,ls(100),0.8644,RNA
-x_pca_complex,trainval_cells,ns(10),0.1196,RNA
-x_pca_complex,trainval_cells,ns(50),0.2766,RNA
-x_pca_complex,trainval_cells,ns(100),0.3887,RNA
-cell_scVI,cross_cell,auROC,0.8281,RNA
-cell_scVI,cross_cell,auPRC,0.5802,RNA
-cell_scVI,cross_cell,per cell auROC,0.8033,RNA
-cell_scVI,cross_cell,per cell auPRC,0.5217,RNA
-cell_scVI,cross_cell,per peak auROC,0.7215,RNA
-cell_scVI,cross_cell,per peak auPRC,0.3738,RNA
-cell_scVI,cross_region,auROC,0.6989,RNA
-cell_scVI,cross_region,auPRC,0.3831,RNA
-cell_scVI,cross_region,per cell auROC,0.6396,RNA
-cell_scVI,cross_region,per cell auPRC,0.3272,RNA
-cell_scVI,cross_region,per peak auROC,0.6614,RNA
-cell_scVI,cross_region,per peak auPRC,0.3136,RNA
-cell_scVI,cross_both,auROC,0.6943,RNA
-cell_scVI,cross_both,auPRC,0.38,RNA
-cell_scVI,cross_both,per cell auROC,0.6383,RNA
-cell_scVI,cross_both,per cell auPRC,0.3296,RNA
-cell_scVI,cross_both,per peak auROC,0.6536,RNA
-cell_scVI,cross_both,per peak auPRC,0.3283,RNA
-cell_scVI,test_cells,ls(10),0.8978,RNA
-cell_scVI,test_cells,ls(50),0.8779,RNA
-cell_scVI,test_cells,ls(100),0.8584,RNA
-cell_scVI,test_cells,ns(10),0.0756,RNA
-cell_scVI,test_cells,ns(50),0.2322,RNA
-cell_scVI,test_cells,ns(100),0.3606,RNA
-cell_scVI,denoise,ls(10),0.8971,RNA
-cell_scVI,denoise,ls(50),0.8694,RNA
-cell_scVI,denoise,ls(100),0.8458,RNA
-cell_scVI,denoise,ns(10),0.0896,RNA
-cell_scVI,denoise,ns(50),0.2429,RNA
-cell_scVI,denoise,ns(100),0.3611,RNA
-cell_scVI,trainval_cells,ls(10),0.8969,RNA
-cell_scVI,trainval_cells,ls(50),0.8685,RNA
-cell_scVI,trainval_cells,ls(100),0.8445,RNA
-cell_scVI,trainval_cells,ns(10),0.091,RNA
-cell_scVI,trainval_cells,ns(50),0.2443,RNA
-cell_scVI,trainval_cells,ns(100),0.3612,RNA
+PCA_no_dense,cross_cell,auROC,0.6586,RNA
+PCA_no_dense,cross_cell,auPRC,0.3438,RNA
+PCA_no_dense,cross_cell,per cell auROC,0.5854,RNA
+PCA_no_dense,cross_cell,per cell auPRC,0.2905,RNA
+PCA_no_dense,cross_cell,per peak auROC,0.7024,RNA
+PCA_no_dense,cross_cell,per peak auPRC,0.3636,RNA
+PCA_no_dense,cross_region,auROC,0.6337,RNA
+PCA_no_dense,cross_region,auPRC,0.2957,RNA
+PCA_no_dense,cross_region,per cell auROC,0.5355,RNA
+PCA_no_dense,cross_region,per cell auPRC,0.238,RNA
+PCA_no_dense,cross_region,per peak auROC,0.6599,RNA
+PCA_no_dense,cross_region,per peak auPRC,0.3087,RNA
+PCA_no_dense,cross_both,auROC,0.626,RNA
+PCA_no_dense,cross_both,auPRC,0.2957,RNA
+PCA_no_dense,cross_both,per cell auROC,0.5312,RNA
+PCA_no_dense,cross_both,per cell auPRC,0.2383,RNA
+PCA_no_dense,cross_both,per peak auROC,0.6545,RNA
+PCA_no_dense,cross_both,per peak auPRC,0.3281,RNA
+PCA_no_dense,test_cells,ls(10),0.9465,RNA
+PCA_no_dense,test_cells,ls(50),0.9005,RNA
+PCA_no_dense,test_cells,ls(100),0.8662,RNA
+PCA_no_dense,test_cells,ns(10),0.6852,RNA
+PCA_no_dense,test_cells,ns(50),0.7635,RNA
+PCA_no_dense,test_cells,ns(100),0.7987,RNA
+PCA_no_dense,denoise,ls(10),0.9419,RNA
+PCA_no_dense,denoise,ls(50),0.8993,RNA
+PCA_no_dense,denoise,ls(100),0.8635,RNA
+PCA_no_dense,denoise,ns(10),0.6616,RNA
+PCA_no_dense,denoise,ns(50),0.7383,RNA
+PCA_no_dense,denoise,ns(100),0.7756,RNA
+PCA_no_dense,trainval_cells,ls(10),0.9425,RNA
+PCA_no_dense,trainval_cells,ls(50),0.8997,RNA
+PCA_no_dense,trainval_cells,ls(100),0.8637,RNA
+PCA_no_dense,trainval_cells,ns(10),0.6913,RNA
+PCA_no_dense,trainval_cells,ns(50),0.7658,RNA
+PCA_no_dense,trainval_cells,ns(100),0.8004,RNA
+PCA_larger_dense,cross_cell,auROC,0.8288,RNA
+PCA_larger_dense,cross_cell,auPRC,0.5828,RNA
+PCA_larger_dense,cross_cell,per cell auROC,0.8041,RNA
+PCA_larger_dense,cross_cell,per cell auPRC,0.5223,RNA
+PCA_larger_dense,cross_cell,per peak auROC,0.7231,RNA
+PCA_larger_dense,cross_cell,per peak auPRC,0.3772,RNA
+PCA_larger_dense,cross_region,auROC,0.7032,RNA
+PCA_larger_dense,cross_region,auPRC,0.3873,RNA
+PCA_larger_dense,cross_region,per cell auROC,0.6467,RNA
+PCA_larger_dense,cross_region,per cell auPRC,0.3309,RNA
+PCA_larger_dense,cross_region,per peak auROC,0.6648,RNA
+PCA_larger_dense,cross_region,per peak auPRC,0.3163,RNA
+PCA_larger_dense,cross_both,auROC,0.699,RNA
+PCA_larger_dense,cross_both,auPRC,0.3867,RNA
+PCA_larger_dense,cross_both,per cell auROC,0.6456,RNA
+PCA_larger_dense,cross_both,per cell auPRC,0.3337,RNA
+PCA_larger_dense,cross_both,per peak auROC,0.6582,RNA
+PCA_larger_dense,cross_both,per peak auPRC,0.3325,RNA
+PCA_larger_dense,test_cells,ls(10),0.9096,RNA
+PCA_larger_dense,test_cells,ls(50),0.8875,RNA
+PCA_larger_dense,test_cells,ls(100),0.8665,RNA
+PCA_larger_dense,test_cells,ns(10),0.1196,RNA
+PCA_larger_dense,test_cells,ns(50),0.2777,RNA
+PCA_larger_dense,test_cells,ns(100),0.3918,RNA
+PCA_larger_dense,denoise,ls(10),0.9126,RNA
+PCA_larger_dense,denoise,ls(50),0.8865,RNA
+PCA_larger_dense,denoise,ls(100),0.8646,RNA
+PCA_larger_dense,denoise,ns(10),0.1191,RNA
+PCA_larger_dense,denoise,ns(50),0.2769,RNA
+PCA_larger_dense,denoise,ns(100),0.3891,RNA
+PCA_larger_dense,trainval_cells,ls(10),0.9127,RNA
+PCA_larger_dense,trainval_cells,ls(50),0.8863,RNA
+PCA_larger_dense,trainval_cells,ls(100),0.8644,RNA
+PCA_larger_dense,trainval_cells,ns(10),0.1196,RNA
+PCA_larger_dense,trainval_cells,ns(50),0.2766,RNA
+PCA_larger_dense,trainval_cells,ns(100),0.3887,RNA
+scVI,cross_cell,auROC,0.8281,RNA
+scVI,cross_cell,auPRC,0.5802,RNA
+scVI,cross_cell,per cell auROC,0.8033,RNA
+scVI,cross_cell,per cell auPRC,0.5217,RNA
+scVI,cross_cell,per peak auROC,0.7215,RNA
+scVI,cross_cell,per peak auPRC,0.3738,RNA
+scVI,cross_region,auROC,0.6989,RNA
+scVI,cross_region,auPRC,0.3831,RNA
+scVI,cross_region,per cell auROC,0.6396,RNA
+scVI,cross_region,per cell auPRC,0.3272,RNA
+scVI,cross_region,per peak auROC,0.6614,RNA
+scVI,cross_region,per peak auPRC,0.3136,RNA
+scVI,cross_both,auROC,0.6943,RNA
+scVI,cross_both,auPRC,0.38,RNA
+scVI,cross_both,per cell auROC,0.6383,RNA
+scVI,cross_both,per cell auPRC,0.3296,RNA
+scVI,cross_both,per peak auROC,0.6536,RNA
+scVI,cross_both,per peak auPRC,0.3283,RNA
+scVI,test_cells,ls(10),0.8978,RNA
+scVI,test_cells,ls(50),0.8779,RNA
+scVI,test_cells,ls(100),0.8584,RNA
+scVI,test_cells,ns(10),0.0756,RNA
+scVI,test_cells,ns(50),0.2322,RNA
+scVI,test_cells,ns(100),0.3606,RNA
+scVI,denoise,ls(10),0.8971,RNA
+scVI,denoise,ls(50),0.8694,RNA
+scVI,denoise,ls(100),0.8458,RNA
+scVI,denoise,ns(10),0.0896,RNA
+scVI,denoise,ns(50),0.2429,RNA
+scVI,denoise,ns(100),0.3611,RNA
+scVI,trainval_cells,ls(10),0.8969,RNA
+scVI,trainval_cells,ls(50),0.8685,RNA
+scVI,trainval_cells,ls(100),0.8445,RNA
+scVI,trainval_cells,ns(10),0.091,RNA
+scVI,trainval_cells,ns(50),0.2443,RNA
+scVI,trainval_cells,ns(100),0.3612,RNA
 x_scVI_nodense,cross_cell,auROC,0.6717,RNA
 x_scVI_nodense,cross_cell,auPRC,0.3537,RNA
 x_scVI_nodense,cross_cell,per cell auROC,0.6104,RNA
@@ -431,114 +431,114 @@ seq_index,trainval_cells,ls(100),0.8822,SEQUENCE
 seq_index,trainval_cells,ns(10),0.1338,SEQUENCE
 seq_index,trainval_cells,ns(50),0.3071,SEQUENCE
 seq_index,trainval_cells,ns(100),0.4267,SEQUENCE
-seq_Sei,cross_cell,auROC,0.8326,SEQUENCE
-seq_Sei,cross_cell,auPRC,0.5807,SEQUENCE
-seq_Sei,cross_cell,per cell auROC,0.8089,SEQUENCE
-seq_Sei,cross_cell,per cell auPRC,0.5217,SEQUENCE
-seq_Sei,cross_cell,per peak auROC,0.7246,SEQUENCE
-seq_Sei,cross_cell,per peak auPRC,0.3769,SEQUENCE
-seq_Sei,cross_region,auROC,0.7794,SEQUENCE
-seq_Sei,cross_region,auPRC,0.4799,SEQUENCE
-seq_Sei,cross_region,per cell auROC,0.7445,SEQUENCE
-seq_Sei,cross_region,per cell auPRC,0.4205,SEQUENCE
-seq_Sei,cross_region,per peak auROC,0.6975,SEQUENCE
-seq_Sei,cross_region,per peak auPRC,0.3394,SEQUENCE
-seq_Sei,cross_both,auROC,0.7756,SEQUENCE
-seq_Sei,cross_both,auPRC,0.4768,SEQUENCE
-seq_Sei,cross_both,per cell auROC,0.742,SEQUENCE
-seq_Sei,cross_both,per cell auPRC,0.4221,SEQUENCE
-seq_Sei,cross_both,per peak auROC,0.6913,SEQUENCE
-seq_Sei,cross_both,per peak auPRC,0.3555,SEQUENCE
-seq_Sei,test_cells,ls(10),0.9122,SEQUENCE
-seq_Sei,test_cells,ls(50),0.8956,SEQUENCE
-seq_Sei,test_cells,ls(100),0.8793,SEQUENCE
-seq_Sei,test_cells,ns(10),0.1255,SEQUENCE
-seq_Sei,test_cells,ns(50),0.2806,SEQUENCE
-seq_Sei,test_cells,ns(100),0.4059,SEQUENCE
-seq_Sei,denoise,ls(10),0.9251,SEQUENCE
-seq_Sei,denoise,ls(50),0.8987,SEQUENCE
-seq_Sei,denoise,ls(100),0.8771,SEQUENCE
-seq_Sei,denoise,ns(10),0.1347,SEQUENCE
-seq_Sei,denoise,ns(50),0.3027,SEQUENCE
-seq_Sei,denoise,ns(100),0.4181,SEQUENCE
-seq_Sei,trainval_cells,ls(10),0.9267,SEQUENCE
-seq_Sei,trainval_cells,ls(50),0.8995,SEQUENCE
-seq_Sei,trainval_cells,ls(100),0.8774,SEQUENCE
-seq_Sei,trainval_cells,ns(10),0.1364,SEQUENCE
-seq_Sei,trainval_cells,ns(50),0.3055,SEQUENCE
-seq_Sei,trainval_cells,ns(100),0.42,SEQUENCE
-seq_easier,cross_cell,auROC,0.8122,SEQUENCE
-seq_easier,cross_cell,auPRC,0.558,SEQUENCE
-seq_easier,cross_cell,per cell auROC,0.7856,SEQUENCE
-seq_easier,cross_cell,per cell auPRC,0.5003,SEQUENCE
-seq_easier,cross_cell,per peak auROC,0.6993,SEQUENCE
-seq_easier,cross_cell,per peak auPRC,0.353,SEQUENCE
-seq_easier,cross_region,auROC,0.667,SEQUENCE
-seq_easier,cross_region,auPRC,0.3438,SEQUENCE
-seq_easier,cross_region,per cell auROC,0.6089,SEQUENCE
-seq_easier,cross_region,per cell auPRC,0.295,SEQUENCE
-seq_easier,cross_region,per peak auROC,0.6522,SEQUENCE
-seq_easier,cross_region,per peak auPRC,0.3119,SEQUENCE
-seq_easier,cross_both,auROC,0.6623,SEQUENCE
-seq_easier,cross_both,auPRC,0.3416,SEQUENCE
-seq_easier,cross_both,per cell auROC,0.6095,SEQUENCE
-seq_easier,cross_both,per cell auPRC,0.2977,SEQUENCE
-seq_easier,cross_both,per peak auROC,0.6425,SEQUENCE
-seq_easier,cross_both,per peak auPRC,0.324,SEQUENCE
-seq_easier,test_cells,ls(10),0.6225,SEQUENCE
-seq_easier,test_cells,ls(50),0.5835,SEQUENCE
-seq_easier,test_cells,ls(100),0.5572,SEQUENCE
-seq_easier,test_cells,ns(10),0.0424,SEQUENCE
-seq_easier,test_cells,ns(50),0.1348,SEQUENCE
-seq_easier,test_cells,ns(100),0.2087,SEQUENCE
-seq_easier,denoise,ls(10),0.6714,SEQUENCE
-seq_easier,denoise,ls(50),0.6103,SEQUENCE
-seq_easier,denoise,ls(100),0.5812,SEQUENCE
-seq_easier,denoise,ns(10),0.056,SEQUENCE
-seq_easier,denoise,ns(50),0.1444,SEQUENCE
-seq_easier,denoise,ns(100),0.2162,SEQUENCE
-seq_easier,trainval_cells,ls(10),0.676,SEQUENCE
-seq_easier,trainval_cells,ls(50),0.6133,SEQUENCE
-seq_easier,trainval_cells,ls(100),0.5837,SEQUENCE
-seq_easier,trainval_cells,ns(10),0.0572,SEQUENCE
-seq_easier,trainval_cells,ns(50),0.1456,SEQUENCE
-seq_easier,trainval_cells,ns(100),0.2171,SEQUENCE
-raw_XChrom,cross_cell,auROC,0.8283,RAW_XChrom
-raw_XChrom,cross_cell,auPRC,0.5822,RAW_XChrom
-raw_XChrom,cross_cell,per cell auROC,0.8035,RAW_XChrom
-raw_XChrom,cross_cell,per cell auPRC,0.522,RAW_XChrom
-raw_XChrom,cross_cell,per peak auROC,0.7222,RAW_XChrom
-raw_XChrom,cross_cell,per peak auPRC,0.3759,RAW_XChrom
-raw_XChrom,cross_region,auROC,0.6794,RAW_XChrom
-raw_XChrom,cross_region,auPRC,0.3718,RAW_XChrom
-raw_XChrom,cross_region,per cell auROC,0.639,RAW_XChrom
-raw_XChrom,cross_region,per cell auPRC,0.3256,RAW_XChrom
-raw_XChrom,cross_region,per peak auROC,0.6616,RAW_XChrom
-raw_XChrom,cross_region,per peak auPRC,0.3134,RAW_XChrom
-raw_XChrom,cross_both,auROC,0.6924,RAW_XChrom
-raw_XChrom,cross_both,auPRC,0.3802,RAW_XChrom
-raw_XChrom,cross_both,per cell auROC,0.6364,RAW_XChrom
-raw_XChrom,cross_both,per cell auPRC,0.3277,RAW_XChrom
-raw_XChrom,cross_both,per peak auROC,0.6541,RAW_XChrom
-raw_XChrom,cross_both,per peak auPRC,0.3286,RAW_XChrom
-raw_XChrom,test_cells,ls(10),0.9295,RAW_XChrom
-raw_XChrom,test_cells,ls(50),0.9117,RAW_XChrom
-raw_XChrom,test_cells,ls(100),0.894,RAW_XChrom
-raw_XChrom,test_cells,ns(10),0.1148,RAW_XChrom
-raw_XChrom,test_cells,ns(50),0.2646,RAW_XChrom
-raw_XChrom,test_cells,ns(100),0.3942,RAW_XChrom
-raw_XChrom,denoise,ls(10),0.9222,RAW_XChrom
-raw_XChrom,denoise,ls(50),0.9004,RAW_XChrom
-raw_XChrom,denoise,ls(100),0.8827,RAW_XChrom
-raw_XChrom,denoise,ns(10),0.1151,RAW_XChrom
-raw_XChrom,denoise,ns(50),0.276,RAW_XChrom
-raw_XChrom,denoise,ns(100),0.3948,RAW_XChrom
-raw_XChrom,trainval_cells,ls(10),0.9215,RAW_XChrom
-raw_XChrom,trainval_cells,ls(50),0.8988,RAW_XChrom
-raw_XChrom,trainval_cells,ls(100),0.8809,RAW_XChrom
-raw_XChrom,trainval_cells,ns(10),0.1153,RAW_XChrom
-raw_XChrom,trainval_cells,ns(50),0.2768,RAW_XChrom
-raw_XChrom,trainval_cells,ns(100),0.3936,RAW_XChrom
+Sei,cross_cell,auROC,0.8326,SEQUENCE
+Sei,cross_cell,auPRC,0.5807,SEQUENCE
+Sei,cross_cell,per cell auROC,0.8089,SEQUENCE
+Sei,cross_cell,per cell auPRC,0.5217,SEQUENCE
+Sei,cross_cell,per peak auROC,0.7246,SEQUENCE
+Sei,cross_cell,per peak auPRC,0.3769,SEQUENCE
+Sei,cross_region,auROC,0.7794,SEQUENCE
+Sei,cross_region,auPRC,0.4799,SEQUENCE
+Sei,cross_region,per cell auROC,0.7445,SEQUENCE
+Sei,cross_region,per cell auPRC,0.4205,SEQUENCE
+Sei,cross_region,per peak auROC,0.6975,SEQUENCE
+Sei,cross_region,per peak auPRC,0.3394,SEQUENCE
+Sei,cross_both,auROC,0.7756,SEQUENCE
+Sei,cross_both,auPRC,0.4768,SEQUENCE
+Sei,cross_both,per cell auROC,0.742,SEQUENCE
+Sei,cross_both,per cell auPRC,0.4221,SEQUENCE
+Sei,cross_both,per peak auROC,0.6913,SEQUENCE
+Sei,cross_both,per peak auPRC,0.3555,SEQUENCE
+Sei,test_cells,ls(10),0.9122,SEQUENCE
+Sei,test_cells,ls(50),0.8956,SEQUENCE
+Sei,test_cells,ls(100),0.8793,SEQUENCE
+Sei,test_cells,ns(10),0.1255,SEQUENCE
+Sei,test_cells,ns(50),0.2806,SEQUENCE
+Sei,test_cells,ns(100),0.4059,SEQUENCE
+Sei,denoise,ls(10),0.9251,SEQUENCE
+Sei,denoise,ls(50),0.8987,SEQUENCE
+Sei,denoise,ls(100),0.8771,SEQUENCE
+Sei,denoise,ns(10),0.1347,SEQUENCE
+Sei,denoise,ns(50),0.3027,SEQUENCE
+Sei,denoise,ns(100),0.4181,SEQUENCE
+Sei,trainval_cells,ls(10),0.9267,SEQUENCE
+Sei,trainval_cells,ls(50),0.8995,SEQUENCE
+Sei,trainval_cells,ls(100),0.8774,SEQUENCE
+Sei,trainval_cells,ns(10),0.1364,SEQUENCE
+Sei,trainval_cells,ns(50),0.3055,SEQUENCE
+Sei,trainval_cells,ns(100),0.42,SEQUENCE
+simpler_CNN,cross_cell,auROC,0.8122,SEQUENCE
+simpler_CNN,cross_cell,auPRC,0.558,SEQUENCE
+simpler_CNN,cross_cell,per cell auROC,0.7856,SEQUENCE
+simpler_CNN,cross_cell,per cell auPRC,0.5003,SEQUENCE
+simpler_CNN,cross_cell,per peak auROC,0.6993,SEQUENCE
+simpler_CNN,cross_cell,per peak auPRC,0.353,SEQUENCE
+simpler_CNN,cross_region,auROC,0.667,SEQUENCE
+simpler_CNN,cross_region,auPRC,0.3438,SEQUENCE
+simpler_CNN,cross_region,per cell auROC,0.6089,SEQUENCE
+simpler_CNN,cross_region,per cell auPRC,0.295,SEQUENCE
+simpler_CNN,cross_region,per peak auROC,0.6522,SEQUENCE
+simpler_CNN,cross_region,per peak auPRC,0.3119,SEQUENCE
+simpler_CNN,cross_both,auROC,0.6623,SEQUENCE
+simpler_CNN,cross_both,auPRC,0.3416,SEQUENCE
+simpler_CNN,cross_both,per cell auROC,0.6095,SEQUENCE
+simpler_CNN,cross_both,per cell auPRC,0.2977,SEQUENCE
+simpler_CNN,cross_both,per peak auROC,0.6425,SEQUENCE
+simpler_CNN,cross_both,per peak auPRC,0.324,SEQUENCE
+simpler_CNN,test_cells,ls(10),0.6225,SEQUENCE
+simpler_CNN,test_cells,ls(50),0.5835,SEQUENCE
+simpler_CNN,test_cells,ls(100),0.5572,SEQUENCE
+simpler_CNN,test_cells,ns(10),0.0424,SEQUENCE
+simpler_CNN,test_cells,ns(50),0.1348,SEQUENCE
+simpler_CNN,test_cells,ns(100),0.2087,SEQUENCE
+simpler_CNN,denoise,ls(10),0.6714,SEQUENCE
+simpler_CNN,denoise,ls(50),0.6103,SEQUENCE
+simpler_CNN,denoise,ls(100),0.5812,SEQUENCE
+simpler_CNN,denoise,ns(10),0.056,SEQUENCE
+simpler_CNN,denoise,ns(50),0.1444,SEQUENCE
+simpler_CNN,denoise,ns(100),0.2162,SEQUENCE
+simpler_CNN,trainval_cells,ls(10),0.676,SEQUENCE
+simpler_CNN,trainval_cells,ls(50),0.6133,SEQUENCE
+simpler_CNN,trainval_cells,ls(100),0.5837,SEQUENCE
+simpler_CNN,trainval_cells,ns(10),0.0572,SEQUENCE
+simpler_CNN,trainval_cells,ns(50),0.1456,SEQUENCE
+simpler_CNN,trainval_cells,ns(100),0.2171,SEQUENCE
+XChrom,cross_cell,auROC,0.8283,RAW_XChrom
+XChrom,cross_cell,auPRC,0.5822,RAW_XChrom
+XChrom,cross_cell,per cell auROC,0.8035,RAW_XChrom
+XChrom,cross_cell,per cell auPRC,0.522,RAW_XChrom
+XChrom,cross_cell,per peak auROC,0.7222,RAW_XChrom
+XChrom,cross_cell,per peak auPRC,0.3759,RAW_XChrom
+XChrom,cross_region,auROC,0.6794,RAW_XChrom
+XChrom,cross_region,auPRC,0.3718,RAW_XChrom
+XChrom,cross_region,per cell auROC,0.639,RAW_XChrom
+XChrom,cross_region,per cell auPRC,0.3256,RAW_XChrom
+XChrom,cross_region,per peak auROC,0.6616,RAW_XChrom
+XChrom,cross_region,per peak auPRC,0.3134,RAW_XChrom
+XChrom,cross_both,auROC,0.6924,RAW_XChrom
+XChrom,cross_both,auPRC,0.3802,RAW_XChrom
+XChrom,cross_both,per cell auROC,0.6364,RAW_XChrom
+XChrom,cross_both,per cell auPRC,0.3277,RAW_XChrom
+XChrom,cross_both,per peak auROC,0.6541,RAW_XChrom
+XChrom,cross_both,per peak auPRC,0.3286,RAW_XChrom
+XChrom,test_cells,ls(10),0.9295,RAW_XChrom
+XChrom,test_cells,ls(50),0.9117,RAW_XChrom
+XChrom,test_cells,ls(100),0.894,RAW_XChrom
+XChrom,test_cells,ns(10),0.1148,RAW_XChrom
+XChrom,test_cells,ns(50),0.2646,RAW_XChrom
+XChrom,test_cells,ns(100),0.3942,RAW_XChrom
+XChrom,denoise,ls(10),0.9222,RAW_XChrom
+XChrom,denoise,ls(50),0.9004,RAW_XChrom
+XChrom,denoise,ls(100),0.8827,RAW_XChrom
+XChrom,denoise,ns(10),0.1151,RAW_XChrom
+XChrom,denoise,ns(50),0.276,RAW_XChrom
+XChrom,denoise,ns(100),0.3948,RAW_XChrom
+XChrom,trainval_cells,ls(10),0.9215,RAW_XChrom
+XChrom,trainval_cells,ls(50),0.8988,RAW_XChrom
+XChrom,trainval_cells,ls(100),0.8809,RAW_XChrom
+XChrom,trainval_cells,ns(10),0.1153,RAW_XChrom
+XChrom,trainval_cells,ns(50),0.2768,RAW_XChrom
+XChrom,trainval_cells,ns(100),0.3936,RAW_XChrom
 raw_ATAC,test_cells,ls(10),0.8266,RAW_atac
 raw_ATAC,test_cells,ls(50),0.7899,RAW_atac
 raw_ATAC,test_cells,ls(100),0.7573,RAW_atac
