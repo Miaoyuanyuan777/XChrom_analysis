@@ -69,7 +69,7 @@ We also adopted NS and LS to evaluate the cell identity fidelity of raw and deno
 
 ## **Download data**
 
-The processed datasets are publicly available and can be downloaded from Zenodo (DOI: https://doi.org/10.5281/zenodo.16959682)  
+The processed datasets are publicly available and can be downloaded from Zenodo (DOI: https://doi.org/10.5281/zenodo.16959681)  
 
 ## **XChrom tutorial**
 
